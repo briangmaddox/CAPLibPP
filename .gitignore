@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# The build directory
+build/
+
+# Qt Creator files
+CMakeLists.txt.*
