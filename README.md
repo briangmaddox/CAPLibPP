@@ -11,6 +11,17 @@ cd build
 cmake ..
 make
 ```
+## Tests
+This project uses the Google Test framework.  Install that to run the tests.
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+cd tests
+./caplibpp_unit_test
+```
 
 ## Usage
 See the main.cpp file under src.
