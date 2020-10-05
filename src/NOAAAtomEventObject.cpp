@@ -150,7 +150,7 @@ bool NOAAAtomEventObject::ProcessXML(const boost::property_tree::ptree &inXML)
     SetUpdated(inXML.get<std::string>("feed.updated", ""));
     SetAuthor(inXML.get<std::string>("feed.author.name", ""));
     SetTitle(inXML.get<std::string>("feed.title", ""));
-    SetLink(inXML.get<std::string>("feed.link", ""));
+    SetLink(inXML.get<std::string>("feed.link.<xmlattr>.href", ""));
 
     // Now we go through find all of the <entry> elements and process them
     for (auto &tNode : inXML.get_child("feed"))

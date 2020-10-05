@@ -1,0 +1,2518 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!--
+This atom/xml feed is an index to active advisories, watches and warnings 
+issued by the National Weather Service.  This index file is not the complete 
+Common Alerting Protocol (CAP) alert message.  To obtain the complete CAP 
+alert, please follow the links for each entry in this index.  Also note the 
+CAP message uses a style sheet to convey the information in a human readable 
+format.  Please view the source of the CAP message to see the complete data 
+set.  Not all information in the CAP message is contained in this index of 
+active alerts.
+-->
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:cap='urn:oasis:names:tc:emergency:cap:1.1' xmlns:ha='http://www.alerting.net/namespace/index_1.0'>
+	<!-- http-date = Mon, 28 Sep 2020 18:57:00 GMT -->
+	<id>https://alerts.weather.gov/cap/us.php?x=0</id>
+	<logo>http://alerts.weather.gov/images/xml_logo.gif</logo>
+	<generator>NWS CAP Server</generator>
+	<updated>2020-09-28T12:57:00-06:00</updated>
+	<author>
+		<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Current Watches, Warnings and Advisories for the United States Issued by the National Weather Service</title>
+	<link href="https://alerts.weather.gov/cap/us.php?x=0"/>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=AR125F6525A964.FloodWarning.125F69AAE300AR.SHVFLSSHV.aeea11ff746252d3e4dcf9d5ba71c6c5</id>
+		<updated>2020-09-28T11:01:00-05:00</updated>
+		<published>2020-09-28T11:01:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 11:01AM CDT until October 03 at 7:00PM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=AR125F6525A964.FloodWarning.125F69AAE300AR.SHVFLSSHV.aeea11ff746252d3e4dcf9d5ba71c6c5"/>
+		<summary>...The Flood Warning continues for the following bayou in Louisiana...Arkansas... Bayou Dorcheat Near Springhill affecting Webster Parish and Columbia County</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T11:01:00-05:00</cap:effective>
+		<cap:expires>2020-10-03T19:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Columbia</cap:areaDesc>
+		<cap:polygon>33.1,-93.37 33,-93.35 32.82,-93.32 32.82,-93.38 33,-93.43 33.1,-93.37</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>005027</value>
+			<valueName>UGC</valueName>
+			<value>ARC027</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXT.KSHV.FL.W.0145.000000T0000Z-201004T0000Z/
+				/SPHL1.1.ER.200924T0845Z.200927T0000Z.201003T0600Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=AR125F65256FF8.FloodWarning.125F699ED510AR.LZKFLSLZK.db8a602754cc966fc3c076ea79714b3b</id>
+		<updated>2020-09-28T09:54:00-05:00</updated>
+		<published>2020-09-28T09:54:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 9:54AM CDT until October 03 at 4:00PM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=AR125F65256FF8.FloodWarning.125F699ED510AR.LZKFLSLZK.db8a602754cc966fc3c076ea79714b3b"/>
+		<summary>...The Flood Warning continues for the following rivers in Arkansas... Ouachita River At Thatcher L&amp;D affecting Bradley, Union and Calhoun Counties. ...The Flood Warning is now in effect until Saturday afternoon... The Flood Warning continues for</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T09:54:00-05:00</cap:effective>
+		<cap:expires>2020-10-03T16:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Bradley; Calhoun; Union</cap:areaDesc>
+		<cap:polygon>33.11,-92.23 33.23,-92.36 33.29,-92.61 33.38,-92.47 33.33,-92.26 33.22,-92.12 33.11,-92.23</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>005011 005013 005139</value>
+			<valueName>UGC</valueName>
+			<value>ARC011 ARC013 ARC139</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXT.KLZK.FL.W.0158.000000T0000Z-201003T2100Z/
+				/CALA4.1.ER.200924T1330Z.200928T1800Z.201002T1500Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6525E1A4.RedFlagWarning.125F65327A40CA.SGXRFWSGX.500348cb30477c00cd9d05d1cdd0fb2f</id>
+		<updated>2020-09-28T10:45:00-07:00</updated>
+		<published>2020-09-28T10:45:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Red Flag Warning issued September 28 at 10:45AM PDT until September 28 at 5:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6525E1A4.RedFlagWarning.125F65327A40CA.SGXRFWSGX.500348cb30477c00cd9d05d1cdd0fb2f"/>
+		<summary>...RED FLAG WARNING EXTENDED FOR PARTS OF SAN DIEGO AND RIVERSIDE COUNTIES THROUGH 5 PM TUESDAY DUE TO GUSTY EAST WINDS AND LOW HUMIDITY... ...RED FLAG WARNING REMAINS IN EFFECT UNTIL 5 PM PDT THIS AFTERNOON FOR STRONG GUSTY WINDS AND LOW HUMIDITY FOR MOUNTAINS AND VALLEYS IN SAN BERNARDINO...RIVERSIDE...AND SAN DIEGO</summary>
+		<cap:event>Red Flag Warning</cap:event>
+		<cap:effective>2020-09-28T10:45:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T17:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Severe</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>San Bernardino County Mountains-Including The Mountain Top And Front Country Ranger Districts Of The San Bernardino National Forest</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006071</value>
+			<valueName>UGC</valueName>
+			<value>CAZ255</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KSGX.FW.W.0003.000000T0000Z-200929T0000Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6525E1A4.RedFlagWarning.125F6541BC80CA.SGXRFWSGX.e5d9e209b8de3833ea1d4be2245a3054</id>
+		<updated>2020-09-28T10:45:00-07:00</updated>
+		<published>2020-09-28T10:45:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Red Flag Warning issued September 28 at 10:45AM PDT until September 29 at 5:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6525E1A4.RedFlagWarning.125F6541BC80CA.SGXRFWSGX.e5d9e209b8de3833ea1d4be2245a3054"/>
+		<summary>...RED FLAG WARNING EXTENDED FOR PARTS OF SAN DIEGO AND RIVERSIDE COUNTIES THROUGH 5 PM TUESDAY DUE TO GUSTY EAST WINDS AND LOW HUMIDITY... ...RED FLAG WARNING NOW IN EFFECT UNTIL 5 PM PDT TUESDAY FOR STRONG GUSTY WINDS AND LOW HUMIDITY FOR MOUNTAINS AND VALLEYS IN SAN BERNARDINO...RIVERSIDE...AND SAN DIEGO COUNTIES...</summary>
+		<cap:event>Red Flag Warning</cap:event>
+		<cap:effective>2020-09-28T10:45:00-07:00</cap:effective>
+		<cap:expires>2020-09-29T17:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Severe</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Riverside County Mountains-Including The San Jacinto Ranger District Of The San Bernardino National Forest; San Bernardino and Riverside County Valleys - The Inland Empire; San Diego County Inland Valleys; San Diego County Mountains-Including The Palomar And Descanso Ranger Districts of the Cleveland National Forest; San Gorgonio Pass Near Banning</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006065 006071 006073</value>
+			<valueName>UGC</valueName>
+			<value>CAZ248 CAZ250 CAZ256 CAZ258 CAZ265</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXT.KSGX.FW.W.0003.000000T0000Z-200930T0000Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F65258DA8.RedFlagWarning.125F65327A40CA.LOXRFWLOX.9c58b0962da1f1bc13737b97aa74adef</id>
+		<updated>2020-09-28T08:30:00-07:00</updated>
+		<published>2020-09-28T08:30:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Red Flag Warning issued September 28 at 8:30AM PDT until September 28 at 5:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F65258DA8.RedFlagWarning.125F65327A40CA.LOXRFWLOX.9c58b0962da1f1bc13737b97aa74adef"/>
+		<summary>...RED FLAG WARNING IN EFFECT MONDAY FOR THE LOS ANGELES AND VENTURA COUNTY MOUNTAINS AND SANTA CLARITA VALLEY DUE TO GUSTY SANTA ANA WINDS AND LOW HUMIDITY... .Critical fire weather conditions are anticipated across the mountains of Ventura and Los Angeles counties as well as the Santa Clarita Valley Monday morning through Monday afternoon.</summary>
+		<cap:event>Red Flag Warning</cap:event>
+		<cap:effective>2020-09-28T08:30:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T17:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Severe</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Los Angeles County Mountains, Angeles National Forest; Ventura County Mountains, Los Padres National Forest</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006037 006111</value>
+			<valueName>UGC</valueName>
+			<value>CAZ253 CAZ254</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KLOX.FW.W.0005.000000T0000Z-200929T0000Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F65258DA8.RedFlagWarning.125F65327A40CA.LOXRFWLOX.586a1356afafc2f09e2736f04b8795fb</id>
+		<updated>2020-09-28T08:30:00-07:00</updated>
+		<published>2020-09-28T08:30:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Red Flag Warning issued September 28 at 8:30AM PDT until September 28 at 5:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F65258DA8.RedFlagWarning.125F65327A40CA.LOXRFWLOX.586a1356afafc2f09e2736f04b8795fb"/>
+		<summary>...RED FLAG WARNING IN EFFECT MONDAY FOR THE LOS ANGELES AND VENTURA COUNTY MOUNTAINS AND SANTA CLARITA VALLEY DUE TO GUSTY SANTA ANA WINDS AND LOW HUMIDITY... .Critical fire weather conditions are anticipated across the mountains of Ventura and Los Angeles counties as well as the Santa Clarita Valley Monday morning through Monday afternoon.</summary>
+		<cap:event>Red Flag Warning</cap:event>
+		<cap:effective>2020-09-28T08:30:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T17:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Severe</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Santa Clarita Valley</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006037</value>
+			<valueName>UGC</valueName>
+			<value>CAZ288</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KLOX.FW.W.0005.000000T0000Z-200929T0000Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F65251300.RedFlagWarning.125F65331680CA.EKARFWEKA.94038707e9929009ce18a30d71dcc0c4</id>
+		<updated>2020-09-28T05:16:00-07:00</updated>
+		<published>2020-09-28T05:16:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Red Flag Warning issued September 28 at 5:16AM PDT until September 28 at 9:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F65251300.RedFlagWarning.125F65331680CA.EKARFWEKA.94038707e9929009ce18a30d71dcc0c4"/>
+		<summary>...Critical Fire Weather Conditions through Monday... .Gusty east and northeast winds, very low humidity and extremely dry fuels will result in critical fire weather conditions today. ...RED FLAG WARNING REMAINS IN EFFECT UNTIL 9 PM PDT THIS EVENING... * WIND...East to northeast winds 15 to 25 mph with gusts to 50 mph</summary>
+		<cap:event>Red Flag Warning</cap:event>
+		<cap:effective>2020-09-28T05:16:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T21:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Severe</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Coastal Mendocino; Hoopa; Interior Mendocino; Lake County Portion of Lake-Napa-Sonoma Unit; Lower Middle Klamath; North Coast; Trinity; Upper Smith; Van Duzen, Mad River; W Mendocino NF, E Mendocino Unit</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006015 006023 006033 006045 006093 006105</value>
+			<valueName>UGC</valueName>
+			<value>CAZ201 CAZ202 CAZ203 CAZ204 CAZ211 CAZ212 CAZ264 CAZ276 CAZ277 CAZ283</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KEKA.FW.W.0011.000000T0000Z-200929T0400Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F65250F7C.RedFlagWarning.125F6532EF70CA.MFRRFWMFR.4bb4a1f117b02a5e8d9c643e80f76701</id>
+		<updated>2020-09-28T05:07:00-07:00</updated>
+		<published>2020-09-28T05:07:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Red Flag Warning issued September 28 at 5:07AM PDT until September 28 at 8:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F65250F7C.RedFlagWarning.125F6532EF70CA.MFRRFWMFR.4bb4a1f117b02a5e8d9c643e80f76701"/>
+		<summary>...RED FLAG WARNING REMAINS IN EFFECT UNTIL 8 PM PDT THIS EVENING FOR EAST WIND WITH POOR OVERNIGHT RH RECOVERY AND STRONG GUSTY WIND WITH LOW RH FOR FIRE WEATHER ZONES 280...618...619...620... * Impacts: Gusty east winds, poor relative humidity recovery, and low relative humidity with high fire danger will likely contribute to a significant spread of new and existing fires.</summary>
+		<cap:event>Red Flag Warning</cap:event>
+		<cap:effective>2020-09-28T05:07:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T20:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Severe</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Western Klamath National Forest</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006093</value>
+			<valueName>UGC</valueName>
+			<value>CAZ280</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KMFR.FW.W.0029.000000T0000Z-200929T0300Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F65250F7C.RedFlagWarning.125F6532EF70CA.MFRRFWMFR.3205c9b3e147adca7c748554ea3657c8</id>
+		<updated>2020-09-28T05:07:00-07:00</updated>
+		<published>2020-09-28T05:07:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Red Flag Warning issued September 28 at 5:07AM PDT until September 28 at 8:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F65250F7C.RedFlagWarning.125F6532EF70CA.MFRRFWMFR.3205c9b3e147adca7c748554ea3657c8"/>
+		<summary>...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM THIS MORNING TO 8 PM PDT THIS EVENING FOR STRONG GUSTY WIND WITH LOW RH FOR FIRE WEATHER ZONES 281...282...284 AND 285... * Impacts: Strong, gusty wind with low relative humidity and high fire danger will likely contribute to a significant spread of new and existing fires.</summary>
+		<cap:event>Red Flag Warning</cap:event>
+		<cap:effective>2020-09-28T05:07:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T20:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Severe</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Central Siskiyou County Including Shasta Valley; Modoc County Except for the Surprise Valley; Shasta-Trinity National Forest in Siskiyou County; Siskiyou County from the Cascade Mountains East and South to Mt Shasta</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006049 006093</value>
+			<valueName>UGC</valueName>
+			<value>CAZ281 CAZ282 CAZ284 CAZ285</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KMFR.FW.W.0029.200928T1700Z-200929T0300Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524E808.HeatAdvisory.125F6532C860CA.MTRNPWMTR.2eb6e925af398ee1bc4f76444d6376b1</id>
+		<updated>2020-09-28T04:06:00-07:00</updated>
+		<published>2020-09-28T04:06:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Heat Advisory issued September 28 at 4:06AM PDT until September 28 at 7:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524E808.HeatAdvisory.125F6532C860CA.MTRNPWMTR.2eb6e925af398ee1bc4f76444d6376b1"/>
+		<summary>...Very warm to hot daytime temperatures expected again on Monday... .Temperatures will warm up rapidly on Monday, with afternoon highs generally forecast to be a few degrees above those on Sunday. This will result in continued increased risk of heat related illness.</summary>
+		<cap:event>Heat Advisory</cap:event>
+		<cap:effective>2020-09-28T04:06:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T19:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Coastal North Bay Including Point Reyes National Seashore; East Bay Hills and the Diablo Range; East Bay Interior Valleys; North Bay Interior Valleys; North Bay Mountains; San Francisco; San Francisco Bay Shoreline; Santa Clara Valley Including San Jose; Santa Cruz Mountains</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006001 006013 006041 006055 006075 006081 006085 006087 006097</value>
+			<valueName>UGC</valueName>
+			<value>CAZ006 CAZ505 CAZ506 CAZ507 CAZ508 CAZ510 CAZ511 CAZ512 CAZ513</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KMTR.HT.Y.0006.000000T0000Z-200929T0200Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524E740.RedFlagWarning.125F65331680CA.MTRRFWMTR.8cbec9e9042e18594c44b788e2f9a172</id>
+		<updated>2020-09-28T04:04:00-07:00</updated>
+		<published>2020-09-28T04:04:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Red Flag Warning issued September 28 at 4:04AM PDT until September 28 at 9:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524E740.RedFlagWarning.125F65331680CA.MTRRFWMTR.8cbec9e9042e18594c44b788e2f9a172"/>
+		<summary>...Critical Fire Weather Conditions through today... .Gusty north to northeast winds, very low humidity with very poor overnight recovery, and extremely dry fuels will result in critical fire weather conditions through today. ...RED FLAG WARNING REMAINS IN EFFECT UNTIL 9 PM PDT THIS EVENING FOR OFFSHORE WINDS AND LOW HUMIDITY FOR THE ENTIRE NORTH BAY...</summary>
+		<cap:event>Red Flag Warning</cap:event>
+		<cap:effective>2020-09-28T04:04:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T21:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Severe</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Coastal North Bay Including Point Reyes National Seashore; North Bay Interior Valleys; North Bay Mountains</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006041 006055 006097</value>
+			<valueName>UGC</valueName>
+			<value>CAZ505 CAZ506 CAZ507</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KMTR.FW.W.0005.000000T0000Z-200929T0400Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524E740.RedFlagWarning.125F65331680CA.MTRRFWMTR.2497199938bb689ba5a4c4f193dbfc79</id>
+		<updated>2020-09-28T04:04:00-07:00</updated>
+		<published>2020-09-28T04:04:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Red Flag Warning issued September 28 at 4:04AM PDT until September 28 at 9:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524E740.RedFlagWarning.125F65331680CA.MTRRFWMTR.2497199938bb689ba5a4c4f193dbfc79"/>
+		<summary>...Critical Fire Weather Conditions through today... .Gusty north to northeast winds, very low humidity with very poor overnight recovery, and extremely dry fuels will result in critical fire weather conditions through today. ...RED FLAG WARNING REMAINS IN EFFECT UNTIL 9 PM PDT THIS EVENING FOR OFFSHORE WIND AND LOW HUMIDITY FOR FIRE WEATHER ZONE 510...</summary>
+		<cap:event>Red Flag Warning</cap:event>
+		<cap:effective>2020-09-28T04:04:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T21:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Severe</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>East Bay Interior Valleys</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006001 006013</value>
+			<valueName>UGC</valueName>
+			<value>CAZ510</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KMTR.FW.W.0005.000000T0000Z-200929T0400Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524E740.RedFlagWarning.125F65331680CA.MTRRFWMTR.e2d589aab4f47b9499f9826de3018248</id>
+		<updated>2020-09-28T04:04:00-07:00</updated>
+		<published>2020-09-28T04:04:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Red Flag Warning issued September 28 at 4:04AM PDT until September 28 at 9:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524E740.RedFlagWarning.125F65331680CA.MTRRFWMTR.e2d589aab4f47b9499f9826de3018248"/>
+		<summary>...Critical Fire Weather Conditions through today... .Gusty north to northeast winds, very low humidity with very poor overnight recovery, and extremely dry fuels will result in critical fire weather conditions through today. ...RED FLAG WARNING REMAINS IN EFFECT UNTIL 9 PM PDT THIS EVENING FOR GUSTY OFFSHORE WINDS AND LOW HUMIDITY FOR FIRE WEATHER ZONE</summary>
+		<cap:event>Red Flag Warning</cap:event>
+		<cap:effective>2020-09-28T04:04:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T21:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Severe</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>East Bay Hills and the Diablo Range</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006001 006013 006085</value>
+			<valueName>UGC</valueName>
+			<value>CAZ511</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KMTR.FW.W.0005.000000T0000Z-200929T0400Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524D160.HeatAdvisory.125F698CD3B0CA.SGXNPWSGX.f8d4d4ac5693db8d22afc490884bc78f</id>
+		<updated>2020-09-28T03:48:00-07:00</updated>
+		<published>2020-09-28T03:48:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Heat Advisory issued September 28 at 3:48AM PDT until October 01 at 8:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524D160.HeatAdvisory.125F698CD3B0CA.SGXNPWSGX.f8d4d4ac5693db8d22afc490884bc78f"/>
+		<summary>...HEAT ADVISORY REMAINS IN EFFECT FROM 10 AM TUESDAY TO 8 PM PDT THURSDAY... * WHAT...High temperatures of 98 to 103 degrees for the Inland Empire, 96 to 102 degrees for the San Diego valleys, and 92 to 100 degrees for inland Orange County. * WHERE...Valleys and inland Orange County.</summary>
+		<cap:event>Heat Advisory</cap:event>
+		<cap:effective>2020-09-28T03:48:00-07:00</cap:effective>
+		<cap:expires>2020-10-01T20:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Orange County Inland; San Bernardino and Riverside County Valleys-The Inland Empire; San Diego County Inland Valleys</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006059 006065 006071 006073</value>
+			<valueName>UGC</valueName>
+			<value>CAZ048 CAZ050 CAZ554</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KSGX.HT.Y.0008.200929T1700Z-201002T0300Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524CA58.HeatAdvisory.125F6532A150CA.EKANPWEKA.373ff9d3032fe4e5673aa67f0d224ec4</id>
+		<updated>2020-09-28T03:30:00-07:00</updated>
+		<published>2020-09-28T03:30:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Heat Advisory issued September 28 at 3:30AM PDT until September 28 at 6:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524CA58.HeatAdvisory.125F6532A150CA.EKANPWEKA.373ff9d3032fe4e5673aa67f0d224ec4"/>
+		<summary>...HEAT ADVISORY IN EFFECT FROM 1 PM THIS AFTERNOON TO 6 PM PDT THIS EVENING... * WHAT...Hot conditions with high temperatures ranging from 80 to 90 along the coast and 90 to 100 in the coastal river valleys. * WHERE...Portions of northwest California. * WHEN...From 1 PM this afternoon to 6 PM PDT this evening.</summary>
+		<cap:event>Heat Advisory</cap:event>
+		<cap:effective>2020-09-28T03:30:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T18:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Coastal Del Norte; Del Norte Interior; Mendocino Coast; Northeastern Mendocino Interior; Northern Humboldt Coast; Northern Humboldt Interior; Northwestern Mendocino Interior; Southeastern Mendocino Interior; Southern Humboldt Interior; Southwestern Humboldt; Southwestern Mendocino Interior</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006015 006023 006045</value>
+			<valueName>UGC</valueName>
+			<value>CAZ101 CAZ102 CAZ103 CAZ104 CAZ105 CAZ106 CAZ109 CAZ110 CAZ111 CAZ112 CAZ113</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.UPG.KEKA.EH.A.0004.200928T1800Z-200929T0200Z/
+				/O.NEW.KEKA.HT.Y.0008.200928T2000Z-200929T0100Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524CA58.RedFlagWarning.125F65331680CA.STORFWSTO.4b6c1820eccfd5cbb7fa840956df9d97</id>
+		<updated>2020-09-28T03:30:00-07:00</updated>
+		<published>2020-09-28T03:30:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Red Flag Warning issued September 28 at 3:30AM PDT until September 28 at 9:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524CA58.RedFlagWarning.125F65331680CA.STORFWSTO.4b6c1820eccfd5cbb7fa840956df9d97"/>
+		<summary>...Red Flag Warning Continues Through 9 PM PDT Tonight... .Gusty north to east wind combined with low humidity will continue critical fire weather conditions over much of interior Northern California today into tonight. Extreme caution should be taken to prevent new fire starts. Wind decreases in most areas by tonight, with lighter wind expected through the rest of the week.</summary>
+		<cap:event>Red Flag Warning</cap:event>
+		<cap:effective>2020-09-28T03:30:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T21:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Severe</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Central Sacramento Valley including Glenn, Colusa, Yuba, Northern Sutter, Butte County Below 1000 Ft; Eastern Delta; Eastern Mendocino NF; Eastern Portion of Shasta, Trinity NF; Northern Motherlode From 1000 to 3000 Ft. From Yuba To Amador Counties; Northern Sacramento Valley to Southern Tehama County Line Below 1000 Ft; Northern San Joaquin Valley in San Joaquin and Stanislaus Counties Below 1000 ft - Excludes the Delta; Northern Sierra Foothills from 1000 to 3000 Ft. Includes Nevada-Yuba-Placer RU and Anador-Eldorado RU; Northern Sierra Including Lassen NP and Plumas and Lassen NF, S West of the Sierra Crest - West of Evans Peak, Grizzly Peak, Beckworth Peak; Southeast Edge Shasta, Trinity NF and Western Portions of Tehama, Glenn RU; Southern Motherlode From 1000 to 3000 Ft, Calaveras and Toulumne Counties; Southern Sacramento Valley In Yolo, Sacramento, Far Western Placer, Southern Sutter and Solano County Below 1000 Ft - Excludes the Delta; Stanislaus National Forest; Tahoe - Eldorado National Forest</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006003 006005 006007 006009 006011 006017 006021 006057 006061 006063 006067 006077 006089 006091 006095 006099 006101 006103 006109 006113 006115</value>
+			<valueName>UGC</valueName>
+			<value>CAZ213 CAZ215 CAZ216 CAZ217 CAZ218 CAZ219 CAZ220 CAZ221 CAZ263 CAZ266 CAZ267 CAZ268 CAZ269 CAZ279</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KSTO.FW.W.0009.000000T0000Z-200929T0400Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524C60C.WindAdvisory.125F65269360CA.LOXNPWLOX.718ef4254af3e21bbcb7db005128d11e</id>
+		<updated>2020-09-28T03:19:00-07:00</updated>
+		<published>2020-09-28T03:19:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Wind Advisory issued September 28 at 3:19AM PDT until September 28 at 3:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524C60C.WindAdvisory.125F65269360CA.LOXNPWLOX.718ef4254af3e21bbcb7db005128d11e"/>
+		<summary>...WIND ADVISORY REMAINS IN EFFECT UNTIL 3 PM PDT THIS AFTERNOON... * WHAT...Northeast winds 20 to 30 mph with gusts up to 45 mph expected. Winds will lower some by mid afternoon. * WHERE...Ventura County Mountains and Los Angeles County Mountains excluding the Santa Monica Range.</summary>
+		<cap:event>Wind Advisory</cap:event>
+		<cap:effective>2020-09-28T03:19:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T15:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Los Angeles County Mountains excluding the Santa Monica Range; Ventura County Mountains</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006037 006111</value>
+			<valueName>UGC</valueName>
+			<value>CAZ053 CAZ054</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KLOX.WI.Y.0062.000000T0000Z-200928T2200Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524C60C.WindAdvisory.125F65269360CA.LOXNPWLOX.b61659d94025ec9c7bbe0507ccba8fb0</id>
+		<updated>2020-09-28T03:19:00-07:00</updated>
+		<published>2020-09-28T03:19:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Wind Advisory issued September 28 at 3:19AM PDT until September 28 at 3:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524C60C.WindAdvisory.125F65269360CA.LOXNPWLOX.b61659d94025ec9c7bbe0507ccba8fb0"/>
+		<summary>...WIND ADVISORY IN EFFECT FROM 6 AM UNTIL 3 PM PDT THIS AFTERNOON... ...HEAT ADVISORY REMAINS IN EFFECT FROM 10 AM TUESDAY TO 8 PM PDT THURSDAY... * WHAT...For the Wind Advisory, northeast winds 20 to 25 mph with gusts up to 40 mph expected. For the Heat Advisory, temperatures up to 103 expected. Hottest on Wednesday.</summary>
+		<cap:event>Wind Advisory</cap:event>
+		<cap:effective>2020-09-28T03:19:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T15:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Santa Clarita Valley</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006037</value>
+			<valueName>UGC</valueName>
+			<value>CAZ088</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CAN.KLOX.WI.Y.0062.000000T0000Z-200928T2200Z/
+				/O.NEW.KLOX.WI.Y.0063.200928T1300Z-200928T2200Z/
+				/O.CON.KLOX.HT.Y.0012.200929T1700Z-201002T0300Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524C60C.HeatAdvisory.125F698CD3B0CA.LOXNPWLOX.8709e314234ac75030837ccb58b2b2ba</id>
+		<updated>2020-09-28T03:19:00-07:00</updated>
+		<published>2020-09-28T03:19:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Heat Advisory issued September 28 at 3:19AM PDT until October 01 at 8:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524C60C.HeatAdvisory.125F698CD3B0CA.LOXNPWLOX.8709e314234ac75030837ccb58b2b2ba"/>
+		<summary>...HEAT ADVISORY IN EFFECT FROM 10 AM TUESDAY TO 8 PM PDT THURSDAY... * WHAT...Temperatures in the upper 80s to upper 90s. Hottest on Wednesday. * WHERE...Ventura County Coast. * WHEN...From 10 AM Tuesday to 8 PM PDT Thursday.</summary>
+		<cap:event>Heat Advisory</cap:event>
+		<cap:effective>2020-09-28T03:19:00-07:00</cap:effective>
+		<cap:expires>2020-10-01T20:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Ventura County Coast</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006111</value>
+			<valueName>UGC</valueName>
+			<value>CAZ040</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXA.KLOX.HT.Y.0012.200929T1700Z-201002T0300Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524C60C.HeatAdvisory.125F698CD3B0CA.LOXNPWLOX.4d0bcf9452a6b763b064b4c70640dfbc</id>
+		<updated>2020-09-28T03:19:00-07:00</updated>
+		<published>2020-09-28T03:19:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Heat Advisory issued September 28 at 3:19AM PDT until October 01 at 8:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524C60C.HeatAdvisory.125F698CD3B0CA.LOXNPWLOX.4d0bcf9452a6b763b064b4c70640dfbc"/>
+		<summary>...HEAT ADVISORY IN EFFECT FROM 10 AM TUESDAY TO 8 PM PDT THURSDAY... * WHAT...Temperatures in the 90s to 100 inland. Hottest on Wednesday. * WHERE...Los Angeles County Coast including Downtown Los Angeles. * WHEN...From 10 AM Tuesday to 8 PM PDT Thursday. * IMPACTS...Hot temperatures may cause heat illnesses to occur.</summary>
+		<cap:event>Heat Advisory</cap:event>
+		<cap:effective>2020-09-28T03:19:00-07:00</cap:effective>
+		<cap:expires>2020-10-01T20:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Los Angeles County Coast including Downtown Los Angeles</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006037</value>
+			<valueName>UGC</valueName>
+			<value>CAZ041</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXA.KLOX.HT.Y.0012.200929T1700Z-201002T0300Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524C60C.HeatAdvisory.125F698CD3B0CA.LOXNPWLOX.fdea884eb770fed6fb06057f6bd8dcf3</id>
+		<updated>2020-09-28T03:19:00-07:00</updated>
+		<published>2020-09-28T03:19:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Heat Advisory issued September 28 at 3:19AM PDT until October 01 at 8:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524C60C.HeatAdvisory.125F698CD3B0CA.LOXNPWLOX.fdea884eb770fed6fb06057f6bd8dcf3"/>
+		<summary>...HEAT ADVISORY REMAINS IN EFFECT FROM 10 AM TUESDAY TO 8 PM PDT THURSDAY... * WHAT...Temperatures will range from 100-106. Hottest on Wednesday. * WHERE...Ventura County Interior Valleys, Ventura County Coastal Valleys, Santa Monica Mountains, San Fernando Valley and San Gabriel Valley.</summary>
+		<cap:event>Heat Advisory</cap:event>
+		<cap:effective>2020-09-28T03:19:00-07:00</cap:effective>
+		<cap:expires>2020-10-01T20:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Los Angeles County San Fernando Valley; Los Angeles County San Gabriel Valley; Santa Monica Mountains Recreational Area; Ventura County Coastal Valleys; Ventura County Interior Valleys</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006037 006111</value>
+			<valueName>UGC</valueName>
+			<value>CAZ044 CAZ045 CAZ046 CAZ547 CAZ548</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KLOX.HT.Y.0012.200929T1700Z-201002T0300Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524C60C.HeatAdvisory.125F698CD3B0CA.LOXNPWLOX.0bd9b111be4fb340559532d0f26bc4d3</id>
+		<updated>2020-09-28T03:19:00-07:00</updated>
+		<published>2020-09-28T03:19:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Heat Advisory issued September 28 at 3:19AM PDT until October 01 at 8:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6524C60C.HeatAdvisory.125F698CD3B0CA.LOXNPWLOX.0bd9b111be4fb340559532d0f26bc4d3"/>
+		<summary>...WIND ADVISORY IN EFFECT FROM 6 AM UNTIL 3 PM PDT THIS AFTERNOON... ...HEAT ADVISORY REMAINS IN EFFECT FROM 10 AM TUESDAY TO 8 PM PDT THURSDAY... * WHAT...For the Wind Advisory, northeast winds 20 to 25 mph with gusts up to 40 mph expected. For the Heat Advisory, temperatures up to 103 expected. Hottest on Wednesday.</summary>
+		<cap:event>Heat Advisory</cap:event>
+		<cap:effective>2020-09-28T03:19:00-07:00</cap:effective>
+		<cap:expires>2020-10-01T20:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Santa Clarita Valley</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006037</value>
+			<valueName>UGC</valueName>
+			<value>CAZ088</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CAN.KLOX.WI.Y.0062.000000T0000Z-200928T2200Z/
+				/O.NEW.KLOX.WI.Y.0063.200928T1300Z-200928T2200Z/
+				/O.CON.KLOX.HT.Y.0012.200929T1700Z-201002T0300Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6523BDFC.WindAdvisory.125F65266C50CA.STONPWSTO.98071b0f3c6497ced4e371627c53d0f6</id>
+		<updated>2020-09-27T20:43:00-07:00</updated>
+		<published>2020-09-27T20:43:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Wind Advisory issued September 27 at 8:43PM PDT until September 28 at 2:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F6523BDFC.WindAdvisory.125F65266C50CA.STONPWSTO.98071b0f3c6497ced4e371627c53d0f6"/>
+		<summary>...Gusty North to East Winds through Monday Morning.. .Gusty winds remain in the forecast through tomorrow morning. The strongest winds will be observed in the northern and western side of the Sacramento Valley and the Sierra and adjacent foothills. Winds begin to decrease late tomorrow morning. ...WIND ADVISORY REMAINS IN EFFECT UNTIL 2 PM PDT MONDAY...</summary>
+		<cap:event>Wind Advisory</cap:event>
+		<cap:effective>2020-09-27T20:43:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T14:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Northeast Foothills, Sacramento Valley; Western Plumas County, Lassen Park</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006007 006063 006089 006103</value>
+			<valueName>UGC</valueName>
+			<value>CAZ066 CAZ068</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KSTO.WI.Y.0014.000000T0000Z-200928T2100Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CA125F64E8F460.AirQualityAlert.125F65327A40CA.HNXAQAHNX.bf3b46a3ba8482051c94577e7b2cc699</id>
+		<updated>2020-09-24T11:16:00-07:00</updated>
+		<published>2020-09-24T11:16:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Air Quality Alert issued September 24 at 11:16AM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CA125F64E8F460.AirQualityAlert.125F65327A40CA.HNXAQAHNX.bf3b46a3ba8482051c94577e7b2cc699"/>
+		<summary>The San Joaquin Valley Air Pollution Control District is extending the Air Quality Alert issued on September 21, 2020, due to smoke impacts from the Creek Fire, SQF Complex, and other wildfires throughout California for San Joaquin, Stanislaus, Merced, Madera, Fresno, Kings, Tulare, and Valley portion of Kern County. The Air Quality Alerts issued by the Mariposa County and Tuolumne</summary>
+		<cap:event>Air Quality Alert</cap:event>
+		<cap:effective>2020-09-24T11:16:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T17:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Unknown</cap:urgency>
+		<cap:severity>Unknown</cap:severity>
+		<cap:certainty>Unknown</cap:certainty>
+		<cap:areaDesc>Fresno; Kern; Kings; Madera; Mariposa; Merced; San Joaquin; Stanislaus; Tulare; Tuolumne</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>006019 006029 006031 006039 006043 006047 006077 006099 006107 006109</value>
+			<valueName>UGC</valueName>
+			<value>CAC019 CAC029 CAC031 CAC039 CAC043 CAC047 CAC077 CAC099 CAC107 CAC109</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value/>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CO125F65259578.FreezeWatch.125F6534EB40CO.GJTNPWGJT.0b3d3930dbd759bd5e8d1cf454c49be3</id>
+		<updated>2020-09-28T09:50:00-06:00</updated>
+		<published>2020-09-28T09:50:00-06:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Freeze Watch issued September 28 at 9:50AM MDT until September 29 at 10:00AM MDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CO125F65259578.FreezeWatch.125F6534EB40CO.GJTNPWGJT.0b3d3930dbd759bd5e8d1cf454c49be3"/>
+		<summary>...FREEZE WATCH REMAINS IN EFFECT FROM LATE TONIGHT THROUGH TUESDAY MORNING... ...FREEZE WARNING WILL EXPIRE AT 10 AM MDT THIS MORNING... * WHAT...Sub-freezing temperatures as low as 24 to 28 degrees possible. * WHERE...Upper Yampa River Basin, Central Yampa River Basin and</summary>
+		<cap:event>Freeze Watch</cap:event>
+		<cap:effective>2020-09-28T09:50:00-06:00</cap:effective>
+		<cap:expires>2020-09-29T10:00:00-06:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Future</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Possible</cap:certainty>
+		<cap:areaDesc>Central Colorado River Basin; Central Yampa River Basin; Upper Yampa River Basin</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>008037 008045 008081 008103 008107</value>
+			<valueName>UGC</valueName>
+			<value>COZ002 COZ005 COZ008</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXP.KGJT.FZ.W.0011.000000T0000Z-200928T1600Z/
+				/O.CON.KGJT.FZ.A.0010.200929T0600Z-200929T1600Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=CO125F6525863C.AirQualityAlert.125F65269360CO.BOUAQABOU.1cf776118c3db3569458730525db3fe1</id>
+		<updated>2020-09-28T09:11:00-06:00</updated>
+		<published>2020-09-28T09:11:00-06:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Air Quality Alert issued September 28 at 9:11AM MDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=CO125F6525863C.AirQualityAlert.125F65269360CO.BOUAQABOU.1cf776118c3db3569458730525db3fe1"/>
+		<summary>...ACTION DAY FOR PARTICULATES FROM 400 PM SUNDAY UNTIL 400 PM MONDAY... The Colorado Department of Public Health and Environment has issued the following... WHAT...Action Day for Particulates. WHERE...Douglas, Jefferson, Denver, western Arapahoe, western</summary>
+		<cap:event>Air Quality Alert</cap:event>
+		<cap:effective>2020-09-28T09:11:00-06:00</cap:effective>
+		<cap:expires>2020-09-28T16:00:00-06:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Unknown</cap:urgency>
+		<cap:severity>Unknown</cap:severity>
+		<cap:certainty>Unknown</cap:certainty>
+		<cap:areaDesc>Adams; Arapahoe; Boulder; Broomfield; Denver; Douglas; Jefferson; Larimer; Weld</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>008001 008005 008013 008014 008031 008035 008059 008069 008123</value>
+			<valueName>UGC</valueName>
+			<value>COC001 COC005 COC013 COC014 COC031 COC035 COC059 COC069 COC123</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value/>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=FL125F652606C0.SpecialWeatherStatement.125F652629E8FL.TBWSPSTBW.ba84c258761ae0baa1d17ddd125ebcc8</id>
+		<updated>2020-09-28T14:40:00-04:00</updated>
+		<published>2020-09-28T14:40:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Special Weather Statement issued September 28 at 2:40PM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=FL125F652606C0.SpecialWeatherStatement.125F652629E8FL.TBWSPSTBW.ba84c258761ae0baa1d17ddd125ebcc8"/>
+		<summary>...SIGNIFICANT WEATHER ADVISORY FOR NORTHERN SUMTER AND SOUTHEASTERN HERNANDO COUNTIES UNTIL 330 PM EDT... At 240 PM EDT, Doppler radar was tracking a strong thunderstorm near Bushnell, moving north at 20 mph. Pea size hail and winds in excess of 40 mph will be possible with this storm.</summary>
+		<cap:event>Special Weather Statement</cap:event>
+		<cap:effective>2020-09-28T14:40:00-04:00</cap:effective>
+		<cap:expires>2020-09-28T15:30:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Observed</cap:certainty>
+		<cap:areaDesc>Inland Hernando; Sumter</cap:areaDesc>
+		<cap:polygon>28.54,-81.95 28.45,-82.01 28.46,-82.06 28.48,-82.06 28.48,-82.14 28.5,-82.25 28.76,-82.2 28.76,-82.18 28.78,-82.19 28.79,-82.17 28.82,-82.18 28.84,-82.18 28.84,-81.95 28.54,-81.95</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>012053 012119</value>
+			<valueName>UGC</valueName>
+			<value>FLZ043 FLZ248</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value/>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=FL125F6525D330.CoastalFloodStatement.125F65351250FL.KEYCFWKEY.a54396b244d54e37eb8c01f5691b984f</id>
+		<updated>2020-09-28T13:08:00-04:00</updated>
+		<published>2020-09-28T13:08:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Coastal Flood Statement issued September 28 at 1:08PM EDT until September 29 at 1:00PM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=FL125F6525D330.CoastalFloodStatement.125F65351250FL.KEYCFWKEY.a54396b244d54e37eb8c01f5691b984f"/>
+		<summary>* WHAT...Minor saltwater flooding. * WHERE...Florida Keys. * WHEN...Through Tuesday afternoon. * IMPACTS...Minor saltwater flooding of low elevation streets and lots is likely. Some storm drains will overflow, and some seawalls and docks will be overtopped. Boaters can expect less</summary>
+		<cap:event>Coastal Flood Statement</cap:event>
+		<cap:effective>2020-09-28T13:08:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T13:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Unknown</cap:urgency>
+		<cap:severity>Unknown</cap:severity>
+		<cap:certainty>Unknown</cap:certainty>
+		<cap:areaDesc>Monroe Lower Keys; Monroe Middle Keys; Monroe Upper Keys</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>012087</value>
+			<valueName>UGC</valueName>
+			<value>FLZ076 FLZ077 FLZ078</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.NEW.KKEY.CF.S.0007.200928T1708Z-200929T1700Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=FL125F65256760.FloodWarning.125F65344F00FL.TAEFLSTAE.a0b551af4c3583a53b415cf83cebe485</id>
+		<updated>2020-09-28T10:32:00-04:00</updated>
+		<published>2020-09-28T10:32:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 10:32AM EDT until September 29 at 8:00AM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=FL125F65256760.FloodWarning.125F65344F00FL.TAEFLSTAE.a0b551af4c3583a53b415cf83cebe485"/>
+		<summary>...The Flood Warning continues for the following rivers in Florida... Choctawhatchee River near Bruce (SR 20) affecting Walton and Washington Counties. ...The Flood Warning remains in effect... The Flood Warning continues for the Choctawhatchee River near Bruce (SR 20).</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T10:32:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T08:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Walton; Washington</cap:areaDesc>
+		<cap:polygon>30.7,-85.81 30.44,-85.85 30.37,-86.09 30.44,-86.13 30.47,-85.96 30.7,-85.92 30.7,-85.81</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>012131 012133</value>
+			<valueName>UGC</valueName>
+			<value>FLC131 FLC133</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KTAE.FL.W.0060.000000T0000Z-200929T1200Z/
+				/BRUF1.1.ER.200917T1628Z.200920T1645Z.200929T0000Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=FL125F65255D9C.FloodWarning.125F653364A0FL.TBWFLWTBW.1c4d7ee1ba51c3915838b8d1656b08f2</id>
+		<updated>2020-09-28T10:07:00-04:00</updated>
+		<published>2020-09-28T10:07:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 10:07AM EDT until September 29 at 2:00AM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=FL125F65255D9C.FloodWarning.125F653364A0FL.TBWFLWTBW.1c4d7ee1ba51c3915838b8d1656b08f2"/>
+		<summary>...The National Weather Service in Tampa Bay Ruskin FL has issued a Flood Warning for the following rivers in Florida... Cypress Creek At SR 54 Worthington Gardens affecting Pasco County. For the Cypress Creek...including SR 54 Worthington Gardens...Minor flooding is forecast. The National Weather Service in Tampa Bay Ruskin has issued a</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T10:07:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T02:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Pasco</cap:areaDesc>
+		<cap:polygon>28.19,-82.34 28.14,-82.34 28.14,-82.4 28.19,-82.4 28.19,-82.34</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>012101</value>
+			<valueName>UGC</valueName>
+			<value>FLC101</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.NEW.KTBW.FL.W.0014.200928T1407Z-200929T0600Z/
+				/WRGF1.1.ER.200928T0645Z.200928T1300Z.200929T0000Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=FL125F65255D38.FloodWarning.125F6532CE3CFL.TBWFLWTBW.3f0d0b2f04a652b59a2982ea8c6bf137</id>
+		<updated>2020-09-28T10:06:00-04:00</updated>
+		<published>2020-09-28T10:06:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 10:06AM EDT until further notice by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=FL125F65255D38.FloodWarning.125F6532CE3CFL.TBWFLWTBW.3f0d0b2f04a652b59a2982ea8c6bf137"/>
+		<summary>...The National Weather Service in Tampa Bay Ruskin FL has issued a Flood Warning for the following rivers in Florida... Peace River At Zolfo Springs at SR 17 affecting Hardee County. For the Peace...including Bartow, Zolfo Springs at SR 17, Arcadia at SR 70...Minor flooding is forecast. The National Weather Service in Tampa Bay Ruskin has issued a</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T10:06:00-04:00</cap:effective>
+		<cap:expires>2020-09-28T22:15:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Hardee</cap:areaDesc>
+		<cap:polygon>27.62,-81.76 27.35,-81.79 27.35,-81.87 27.62,-81.84 27.62,-81.76</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>012049</value>
+			<valueName>UGC</valueName>
+			<value>FLC049</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.NEW.KTBW.FL.W.0013.200929T1900Z-000000T0000Z/
+				/ZFSF1.1.ER.200929T1900Z.200930T1800Z.000000T0000Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=FL125F65255BA8.FloodWarning.125F6534CA0CFL.MLBFLWMLB.4c66ef1e60e32a067d46212176ce556f</id>
+		<updated>2020-09-28T10:02:00-04:00</updated>
+		<published>2020-09-28T10:02:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 10:02AM EDT until further notice by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=FL125F65255BA8.FloodWarning.125F6534CA0CFL.MLBFLWMLB.4c66ef1e60e32a067d46212176ce556f"/>
+		<summary>...The Flood Warning continues for the following rivers in Florida... St Johns River Near Astor affecting Volusia and Lake Counties. .The river at Astor is forecast to remain very close to Moderate Flood Stage for a couple of days before slowly declining later this week. Locally heavy rainfall is possible today and Tuesday, which could cause additional rises of the river level at Astor.</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T10:02:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T11:15:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Lake; Volusia</cap:areaDesc>
+		<cap:polygon>29.08,-81.5 29.32,-81.69 29.35,-81.57 29.1,-81.42 29.08,-81.5</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>012069 012127</value>
+			<valueName>UGC</valueName>
+			<value>FLC069 FLC127</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KMLB.FL.W.0001.000000T0000Z-000000T0000Z/
+				/ASTF1.2.ER.200915T2330Z.200923T0730Z.000000T0000Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=FL125F6523DA80.FloodWatch.125F65344F00FL.JAXFFAJAX.a4f0b4804af4b1e28ac4339aefa135d2</id>
+		<updated>2020-09-28T00:16:00-04:00</updated>
+		<published>2020-09-28T00:16:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Watch issued September 28 at 12:16AM EDT until September 29 at 8:00AM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=FL125F6523DA80.FloodWatch.125F65344F00FL.JAXFFAJAX.a4f0b4804af4b1e28ac4339aefa135d2"/>
+		<summary>...FLOOD WATCH IN EFFECT THROUGH TUESDAY EVENING... The National Weather Service in Jacksonville has issued a * Flood Watch for a portion of northeast Florida, including the following areas, Coastal Flagler, Coastal St. Johns, Inland Flagler and Inland St. Johns. * Through Tuesday evening</summary>
+		<cap:event>Flood Watch</cap:event>
+		<cap:effective>2020-09-28T00:16:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T08:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Future</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Possible</cap:certainty>
+		<cap:areaDesc>Inland Flagler; Inland St. Johns</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>012035 012109</value>
+			<valueName>UGC</valueName>
+			<value>FLZ033 FLZ038</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.NEW.KJAX.FA.A.0002.200928T0416Z-200930T0000Z/
+				/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=FL125F6523DA80.FloodWatch.125F65351250FL.JAXFFAJAX.42fbf15c066429bb28cf4aa27bea8d65</id>
+		<updated>2020-09-28T00:16:00-04:00</updated>
+		<published>2020-09-28T00:16:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Watch issued September 28 at 12:16AM EDT until September 29 at 1:00PM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=FL125F6523DA80.FloodWatch.125F65351250FL.JAXFFAJAX.42fbf15c066429bb28cf4aa27bea8d65"/>
+		<summary>...FLOOD WATCH IN EFFECT THROUGH TUESDAY EVENING... The National Weather Service in Jacksonville has issued a * Flood Watch for a portion of northeast Florida, including the following areas, Coastal Flagler, Coastal St. Johns, Inland Flagler and Inland St. Johns. * Through Tuesday evening</summary>
+		<cap:event>Flood Watch</cap:event>
+		<cap:effective>2020-09-28T00:16:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T13:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Future</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Possible</cap:certainty>
+		<cap:areaDesc>Coastal Flagler; Coastal St. Johns</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>012035 012109</value>
+			<valueName>UGC</valueName>
+			<value>FLZ133 FLZ138</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.NEW.KJAX.FA.A.0002.200928T0416Z-200930T0000Z/
+				/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=GA125F652547BC.FloodWarning.125F65349D20GA.CHSFLSCHS.9652cbe95d8a1f5892458a9f76f1447e</id>
+		<updated>2020-09-28T09:51:00-04:00</updated>
+		<published>2020-09-28T09:51:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 9:51AM EDT until further notice by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=GA125F652547BC.FloodWarning.125F65349D20GA.CHSFLSCHS.9652cbe95d8a1f5892458a9f76f1447e"/>
+		<summary>...The Flood Warning remains in effect... The Flood Warning continues for the Savannah River near Clyo. * Until further notice. * At 915 AM EDT Monday, the stage was 11.9 feet. * Flood stage is 11.0 feet.</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T09:51:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T10:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Effingham; Screven</cap:areaDesc>
+		<cap:polygon>32.73,-81.45 32.76,-81.37 32.64,-81.36 32.49,-81.17 32.46,-81.25 32.61,-81.44 32.73,-81.45</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>013103 013251</value>
+			<valueName>UGC</valueName>
+			<value>GAC103 GAC251</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KCHS.FL.W.0039.000000T0000Z-000000T0000Z/
+				/CLYG1.1.ER.200925T1315Z.201001T1800Z.000000T0000Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=GA125F652547BC.FloodWarning.125F699C8B20GA.CHSFLSCHS.ec3f2ab46b6bb310c11e5d054f0a54a2</id>
+		<updated>2020-09-28T09:51:00-04:00</updated>
+		<published>2020-09-28T09:51:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 9:51AM EDT until October 03 at 2:00AM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=GA125F652547BC.FloodWarning.125F699C8B20GA.CHSFLSCHS.ec3f2ab46b6bb310c11e5d054f0a54a2"/>
+		<summary>...The Flood Warning is now in effect until early Saturday morning... The Flood Warning continues for the Ogeechee River near Eden. * Until late Friday night. * At 915 AM EDT Monday, the stage was 11.6 feet. * Flood stage is 11.0 feet.</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T09:51:00-04:00</cap:effective>
+		<cap:expires>2020-10-03T02:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Bryan; Bulloch; Chatham; Effingham</cap:areaDesc>
+		<cap:polygon>32.46,-81.6 32.52,-81.52 32.27,-81.4 32.08,-81.33 32.06,-81.43 32.23,-81.5 32.46,-81.6</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>013029 013031 013051 013103</value>
+			<valueName>UGC</valueName>
+			<value>GAC029 GAC031 GAC051 GAC103</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXT.KCHS.FL.W.0040.000000T0000Z-201003T0600Z/
+				/EDEG1.1.ER.200928T0322Z.200929T0600Z.201002T1800Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=GA125F65251CC4.FloodWarning.125F6532A150GA.JAXFLSJAX.ebebb074ac794f5cd6bec85dc0ff931c</id>
+		<updated>2020-09-28T08:41:00-04:00</updated>
+		<published>2020-09-28T08:41:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 8:41AM EDT until September 28 at 9:00PM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=GA125F65251CC4.FloodWarning.125F6532A150GA.JAXFLSJAX.ebebb074ac794f5cd6bec85dc0ff931c"/>
+		<summary>...The Flood Warning is extended for the following rivers in Georgia... Altamaha River At Baxley affecting Toombs, Tattnall, Wayne and Appling Counties. Altamaha River At Charlotteville affecting Toombs, Jeff Davis and Montgomery Counties.</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T08:41:00-04:00</cap:effective>
+		<cap:expires>2020-09-28T21:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Jeff Davis; Montgomery; Toombs</cap:areaDesc>
+		<cap:polygon>31.99,-82.54 32,-82.43 31.94,-82.43 31.94,-82.55 31.99,-82.54</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>013161 013209 013279</value>
+			<valueName>UGC</valueName>
+			<value>GAC161 GAC209 GAC279</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXT.KJAX.FL.W.0029.000000T0000Z-200929T0100Z/
+				/CHRG1.1.ER.200926T1737Z.200927T2330Z.200928T1912Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=GA125F65251CC4.FloodWarning.125F6542A6E0GA.JAXFLSJAX.b10b5e0982a0edf4059705f6e5990dc4</id>
+		<updated>2020-09-28T08:41:00-04:00</updated>
+		<published>2020-09-28T08:41:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 8:41AM EDT until September 30 at 2:00AM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=GA125F65251CC4.FloodWarning.125F6542A6E0GA.JAXFLSJAX.b10b5e0982a0edf4059705f6e5990dc4"/>
+		<summary>...The Flood Warning is extended for the following rivers in Georgia... Altamaha River At Baxley affecting Toombs, Tattnall, Wayne and Appling Counties. Altamaha River At Charlotteville affecting Toombs, Jeff Davis and Montgomery Counties.</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T08:41:00-04:00</cap:effective>
+		<cap:expires>2020-09-30T02:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Appling; Tattnall; Toombs; Wayne</cap:areaDesc>
+		<cap:polygon>32,-82.43 31.93,-82.13 31.83,-81.95 31.76,-81.99 31.88,-82.22 31.94,-82.43 32,-82.43</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>013001 013267 013279 013305</value>
+			<valueName>UGC</valueName>
+			<value>GAC001 GAC267 GAC279 GAC305</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXT.KJAX.FL.W.0030.000000T0000Z-200930T0600Z/
+				/BAXG1.1.ER.200926T1500Z.200928T1145Z.200930T0000Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=ID125F65260D64.FrostAdvisory.125F65349D20ID.PIHNPWPIH.48538bf13fa94468e4f3bd56d152128d</id>
+		<updated>2020-09-28T12:57:00-06:00</updated>
+		<published>2020-09-28T12:57:00-06:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Frost Advisory issued September 28 at 12:57PM MDT until September 29 at 8:00AM MDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=ID125F65260D64.FrostAdvisory.125F65349D20ID.PIHNPWPIH.48538bf13fa94468e4f3bd56d152128d"/>
+		<summary>...FROST ADVISORY IN EFFECT FROM 3 AM TO 8 AM MDT TUESDAY... * WHAT...Temperatures as low as 34 will result in frost formation. * WHERE...Middle and Upper Snake Plain including Mud Lake, Idaho Falls, Rexburg, Pocatello, Blackfoot, American Falls, Shelley and Fort Hall.</summary>
+		<cap:event>Frost Advisory</cap:event>
+		<cap:effective>2020-09-28T12:57:00-06:00</cap:effective>
+		<cap:expires>2020-09-29T08:00:00-06:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Arco, Mud Lake Desert; Lower Snake River Plain; Upper Snake River Plain</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>016011 016019 016023 016043 016051 016065</value>
+			<valueName>UGC</valueName>
+			<value>IDZ052 IDZ053 IDZ054</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.NEW.KPIH.FR.Y.0011.200929T0900Z-200929T1400Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=IN125F652581F0.BeachHazardsStatement.125F6533D9D0IN.LOTCFWLOT.dd9e2d70551f792a0e8c35722d0be4ef</id>
+		<updated>2020-09-28T11:00:00-04:00</updated>
+		<published>2020-09-28T11:00:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Beach Hazards Statement issued September 28 at 11:00AM EDT until September 29 at 5:00AM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=IN125F652581F0.BeachHazardsStatement.125F6533D9D0IN.LOTCFWLOT.dd9e2d70551f792a0e8c35722d0be4ef"/>
+		<summary>...BEACH HAZARDS STATEMENT REMAINS IN EFFECT FROM 4 PM CDT THIS AFTERNOON THROUGH LATE TONIGHT... * LOCATION...Porter County Indiana shore. * HIGH WAVE ACTION AND DANGEROUS SWIMMING CONDITIONS EXPECTED. * FORECAST WAVE HEIGHTS...3 to 5 ft. * STRONG RIP CURRENTS AND STRUCTURAL CURRENTS EXPECTED.</summary>
+		<cap:event>Beach Hazards Statement</cap:event>
+		<cap:effective>2020-09-28T11:00:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T05:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Porter</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>018127</value>
+			<valueName>UGC</valueName>
+			<value>INZ002</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KLOT.BH.S.0021.200928T2100Z-200929T0900Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=IN125F6525462C.BeachHazardsStatement.125F6541BC80IN.IWXCFWIWX.014b6c6fc33fafea98e743ff1c8cd005</id>
+		<updated>2020-09-28T09:47:00-04:00</updated>
+		<published>2020-09-28T09:47:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Beach Hazards Statement issued September 28 at 9:47AM EDT until September 29 at 8:00PM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=IN125F6525462C.BeachHazardsStatement.125F6541BC80IN.IWXCFWIWX.014b6c6fc33fafea98e743ff1c8cd005"/>
+		<summary>...BEACH HAZARDS STATEMENT REMAINS IN EFFECT THROUGH TUESDAY EVENING... * HIGH WAVE ACTION AND DANGEROUS SWIMMING CONDITIONS EXPECTED... * STRONG RIP CURRENTS EXPECTED... * STRONG STRUCTURAL CURRENTS EXPECTED... * OVERVIEW/POTENTIAL IMPACTS...West to northwest winds 10 to 20</summary>
+		<cap:event>Beach Hazards Statement</cap:event>
+		<cap:effective>2020-09-28T09:47:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T20:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>La Porte</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>018091</value>
+			<valueName>UGC</valueName>
+			<value>INZ003</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KIWX.BH.S.0023.000000T0000Z-200930T0000Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=LA125F65260BD4.LakeWindAdvisory.125F65327A40LA.SHVNPWSHV.fea66f0f699ead8b422ae878927ca654</id>
+		<updated>2020-09-28T13:53:00-05:00</updated>
+		<published>2020-09-28T13:53:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Lake Wind Advisory issued September 28 at 1:53PM CDT until September 28 at 7:00PM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=LA125F65260BD4.LakeWindAdvisory.125F65327A40LA.SHVNPWSHV.fea66f0f699ead8b422ae878927ca654"/>
+		<summary>...LAKE WIND ADVISORY REMAINS IN EFFECT UNTIL 7 PM CDT THIS EVENING... * WHAT...North winds 15 to 20 mph with gusts as high as 25 mph. * WHERE...Portions of north central and northwest Louisiana and east and northeast Texas. * WHEN...Until 7 PM CDT this evening.</summary>
+		<cap:event>Lake Wind Advisory</cap:event>
+		<cap:effective>2020-09-28T13:53:00-05:00</cap:effective>
+		<cap:expires>2020-09-28T19:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Bienville; Bossier; Caddo; Caldwell; Claiborne; De Soto; Grant; Jackson; La Salle; Lincoln; Natchitoches; Ouachita; Red River; Sabine; Union; Webster; Winn</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>022013 022015 022017 022021 022027 022031 022043 022049 022059 022061 022069 022073 022081 022085 022111 022119 022127</value>
+			<valueName>UGC</valueName>
+			<value>LAZ001 LAZ002 LAZ003 LAZ004 LAZ005 LAZ006 LAZ010 LAZ011 LAZ012 LAZ013 LAZ014 LAZ017 LAZ018 LAZ019 LAZ020 LAZ021 LAZ022</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KSHV.LW.Y.0023.000000T0000Z-200929T0000Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=LA125F65260530.SpecialWeatherStatement.125F6526240CLA.LIXSPSLIX.bcb506b5006d4602d7950d9916406fa1</id>
+		<updated>2020-09-28T13:36:00-05:00</updated>
+		<published>2020-09-28T13:36:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Special Weather Statement issued September 28 at 1:36PM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=LA125F65260530.SpecialWeatherStatement.125F6526240CLA.LIXSPSLIX.bcb506b5006d4602d7950d9916406fa1"/>
+		<summary>...A LINE OF STRONG THUNDERSTORMS WILL AFFECT NORTHEASTERN ST. JOHN THE BAPTIST...NORTHWESTERN ST. TAMMANY...EAST CENTRAL LIVINGSTON AND SOUTHERN TANGIPAHOA PARISHES... At 136 PM CDT, radar indicated strong thunderstorms were located along a line extending from 7 miles northeast of Natalbany to Springfield. Movement was east at 30 mph.</summary>
+		<cap:event>Special Weather Statement</cap:event>
+		<cap:effective>2020-09-28T13:36:00-05:00</cap:effective>
+		<cap:expires>2020-09-28T14:15:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Observed</cap:certainty>
+		<cap:areaDesc>Livingston; Northern Tangipahoa; Southern Tangipahoa; St. John The Baptist; St. Tammany</cap:areaDesc>
+		<cap:polygon>30.64,-89.82 30.33,-90.04 30.37,-90.1 30.39,-90.2 30.34,-90.28 30.26,-90.34 30.29,-90.43 30.32,-90.42 30.34,-90.47 30.33,-90.52 30.34,-90.56 30.45,-90.59 30.69,-90.4 30.72,-90.28 30.64,-89.82</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>022063 022095 022103 022105</value>
+			<valueName>UGC</valueName>
+			<value>LAZ040 LAZ050 LAZ058 LAZ071 LAZ072</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value/>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=LA125F6525A964.FloodWarning.125F69AAE300LA.SHVFLSSHV.326f70750ea7c3f272e3814feba47d8a</id>
+		<updated>2020-09-28T11:01:00-05:00</updated>
+		<published>2020-09-28T11:01:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 11:01AM CDT until October 03 at 7:00PM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=LA125F6525A964.FloodWarning.125F69AAE300LA.SHVFLSSHV.326f70750ea7c3f272e3814feba47d8a"/>
+		<summary>...The Flood Warning continues for the following bayou in Louisiana...Arkansas... Bayou Dorcheat Near Springhill affecting Webster Parish and Columbia County</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T11:01:00-05:00</cap:effective>
+		<cap:expires>2020-10-03T19:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Webster</cap:areaDesc>
+		<cap:polygon>33.1,-93.37 33,-93.35 32.82,-93.32 32.82,-93.38 33,-93.43 33.1,-93.37</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>022119</value>
+			<valueName>UGC</valueName>
+			<value>LAC119</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXT.KSHV.FL.W.0145.000000T0000Z-201004T0000Z/
+				/SPHL1.1.ER.200924T0845Z.200927T0000Z.201003T0600Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=LA125F65258830.FloodWarning.125F6534CFE8LA.LCHFLSLCH.fe9b8008d6e82ab7b2a04d0b6c422eac</id>
+		<updated>2020-09-28T10:16:00-05:00</updated>
+		<published>2020-09-28T10:16:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 10:16AM CDT until further notice by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=LA125F65258830.FloodWarning.125F6534CFE8LA.LCHFLSLCH.fe9b8008d6e82ab7b2a04d0b6c422eac"/>
+		<summary>...The Flood Warning continues for the following rivers in Louisiana... Calcasieu River Near Glenmora ...The Flood Warning remains in effect... The Flood Warning continues for the Calcasieu River Near Glenmora.</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T10:16:00-05:00</cap:effective>
+		<cap:expires>2020-09-29T10:30:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Rapides</cap:areaDesc>
+		<cap:polygon>31.15,-92.75 31.05,-92.65 30.9,-92.62 30.9,-92.69 31.13,-92.79 31.15,-92.75</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>022079</value>
+			<valueName>UGC</valueName>
+			<value>LAC079</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KLCH.FL.W.0070.000000T0000Z-000000T0000Z/
+				/GLML1.1.ER.200924T0024Z.200928T1800Z.000000T0000Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=LA125F652587CC.FloodWarning.125F698F1DA0LA.LCHFLSLCH.719ce2120822af640b28f148c30fd193</id>
+		<updated>2020-09-28T10:15:00-05:00</updated>
+		<published>2020-09-28T10:15:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 10:15AM CDT until October 02 at 1:00PM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=LA125F652587CC.FloodWarning.125F698F1DA0LA.LCHFLSLCH.719ce2120822af640b28f148c30fd193"/>
+		<summary>...The Flood Warning is extended for the following rivers in Louisiana...Texas... Sabine River Near Deweyville ...The Flood Warning is now in effect until early Friday afternoon... The Flood Warning continues for the Sabine River Near Deweyville.</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T10:15:00-05:00</cap:effective>
+		<cap:expires>2020-10-02T13:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Beauregard; Calcasieu</cap:areaDesc>
+		<cap:polygon>30.57,-93.63 30.11,-93.64 30.11,-93.78 30.31,-93.81 30.62,-93.78 30.57,-93.63</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>022011 022019</value>
+			<valueName>UGC</valueName>
+			<value>LAC011 LAC019</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXT.KLCH.FL.W.0069.000000T0000Z-201002T1800Z/
+				/DWYT2.1.ER.200925T0452Z.200928T1800Z.201002T0600Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=ME125F65260AA8.DenseFogAdvisory.125F65349D20ME.CARNPWCAR.be810dc285948f7ec15f1ed9469c128a</id>
+		<updated>2020-09-28T14:50:00-04:00</updated>
+		<published>2020-09-28T14:50:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Dense Fog Advisory issued September 28 at 2:50PM EDT until September 29 at 10:00AM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=ME125F65260AA8.DenseFogAdvisory.125F65349D20ME.CARNPWCAR.be810dc285948f7ec15f1ed9469c128a"/>
+		<summary>...DENSE FOG ADVISORY IN EFFECT FROM 8 PM THIS EVENING TO 10 AM EDT TUESDAY... * WHAT...Visibility one quarter mile or less at times in dense fog. * WHERE...Coastal Hancock and Coastal Washington Counties. * WHEN...From 8 PM this evening to 10 AM EDT Tuesday.</summary>
+		<cap:event>Dense Fog Advisory</cap:event>
+		<cap:effective>2020-09-28T14:50:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T10:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Coastal Hancock; Coastal Washington</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>023009 023029</value>
+			<valueName>UGC</valueName>
+			<value>MEZ029 MEZ030</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.NEW.KCAR.FG.Y.0017.200929T0000Z-200929T1400Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=MI125F6525462C.BeachHazardsStatement.125F6541BC80MI.IWXCFWIWX.4faa6e705e9e8505c0e8b257477abb85</id>
+		<updated>2020-09-28T09:47:00-04:00</updated>
+		<published>2020-09-28T09:47:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Beach Hazards Statement issued September 28 at 9:47AM EDT until September 29 at 8:00PM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=MI125F6525462C.BeachHazardsStatement.125F6541BC80MI.IWXCFWIWX.4faa6e705e9e8505c0e8b257477abb85"/>
+		<summary>...BEACH HAZARDS STATEMENT REMAINS IN EFFECT THROUGH TUESDAY EVENING... * HIGH WAVE ACTION AND DANGEROUS SWIMMING CONDITIONS EXPECTED... * STRONG RIP CURRENTS EXPECTED... * STRONG STRUCTURAL CURRENTS EXPECTED... * OVERVIEW/POTENTIAL IMPACTS...West to northwest winds 10 to 20</summary>
+		<cap:event>Beach Hazards Statement</cap:event>
+		<cap:effective>2020-09-28T09:47:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T20:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Berrien</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>026021</value>
+			<valueName>UGC</valueName>
+			<value>MIZ077</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KIWX.BH.S.0023.000000T0000Z-200930T0000Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=MS125F65260D00.SpecialWeatherStatement.125F65264540MS.MOBSPSMOB.1361b2b182cddf10463138ba829be96b</id>
+		<updated>2020-09-28T13:56:00-05:00</updated>
+		<published>2020-09-28T13:56:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Special Weather Statement issued September 28 at 1:56PM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=MS125F65260D00.SpecialWeatherStatement.125F65264540MS.MOBSPSMOB.1361b2b182cddf10463138ba829be96b"/>
+		<summary>...A STRONG THUNDERSTORM WILL AFFECT THE FOLLOWING COUNTIES... NORTHERN PERRY...SOUTHERN WAYNE AND NORTHERN GREENE COUNTIES UNTIL 300 PM CDT... At 155 PM CDT, the strong thunderstorm was located over Macedonia, or 8 miles northeast of Petal, moving east at 35 mph. Wind gusts of 40 to 50 mph will be possible with this storm.</summary>
+		<cap:event>Special Weather Statement</cap:event>
+		<cap:effective>2020-09-28T13:56:00-05:00</cap:effective>
+		<cap:expires>2020-09-28T15:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Observed</cap:certainty>
+		<cap:areaDesc>Greene; Perry; Wayne</cap:areaDesc>
+		<cap:polygon>31.43,-89.15 31.43,-88.94 31.55,-88.94 31.61,-88.46 31.25,-88.44 31.24,-89.15 31.43,-89.15</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>028041 028111 028153</value>
+			<valueName>UGC</valueName>
+			<value>MSZ067 MSZ075 MSZ076</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value/>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=MS125F65256634.FloodWarning.125F697ECD10MS.JANFLSJAN.672d3c77b05fbb52ae3643c88d14bf80</id>
+		<updated>2020-09-28T09:29:00-05:00</updated>
+		<published>2020-09-28T09:29:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 9:29AM CDT until October 01 at 6:08AM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=MS125F65256634.FloodWarning.125F697ECD10MS.JANFLSJAN.672d3c77b05fbb52ae3643c88d14bf80"/>
+		<summary>...The Flood Warning is extended for the following rivers in Mississippi... Big Black River Near Bentonia affecting Madison and Yazoo Counties. ...The Flood Warning is now in effect until Thursday morning... The Flood Warning continues for</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T09:29:00-05:00</cap:effective>
+		<cap:expires>2020-10-01T06:08:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Madison; Yazoo</cap:areaDesc>
+		<cap:polygon>32.56,-90.64 32.81,-90.12 32.91,-90.06 32.85,-89.87 32.72,-89.96 32.45,-90.52 32.56,-90.64</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>028089 028163</value>
+			<valueName>UGC</valueName>
+			<value>MSC089 MSC163</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXT.KJAN.FL.W.0182.000000T0000Z-201001T1108Z/
+				/BTAM6.1.ER.200924T1908Z.200928T1400Z.200930T2308Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=NC125F65260C9C.CoastalFloodAdvisory.125F6532EF70NC.ILMCFWILM.a3796cf60a3cf41f26cd791d015d77bf</id>
+		<updated>2020-09-28T14:55:00-04:00</updated>
+		<published>2020-09-28T14:55:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Coastal Flood Advisory issued September 28 at 2:55PM EDT until September 28 at 11:00PM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=NC125F65260C9C.CoastalFloodAdvisory.125F6532EF70NC.ILMCFWILM.a3796cf60a3cf41f26cd791d015d77bf"/>
+		<summary>...COASTAL FLOOD ADVISORY IN EFFECT FROM 8 PM TO 11 PM EDT THIS EVENING... * WHAT...Up to one half foot of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...The lower Cape Fear River including downtown</summary>
+		<cap:event>Coastal Flood Advisory</cap:event>
+		<cap:effective>2020-09-28T14:55:00-04:00</cap:effective>
+		<cap:expires>2020-09-28T23:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Inland New Hanover</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>037129</value>
+			<valueName>UGC</valueName>
+			<value>NCZ107</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.NEW.KILM.CF.Y.0084.200929T0000Z-200929T0300Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=NC125F65254820.FloodWarning.125F6533B2C0NC.ILMFLSILM.b04aa53b76a7a62c8764d40f50a58289</id>
+		<updated>2020-09-28T09:52:00-04:00</updated>
+		<published>2020-09-28T09:52:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 9:52AM EDT until further notice by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=NC125F65254820.FloodWarning.125F6533B2C0NC.ILMFLSILM.b04aa53b76a7a62c8764d40f50a58289"/>
+		<summary>...The Flood Warning is extended for the following rivers in South Carolina... Great Pee Dee River At Pee Dee affecting Marion and Florence Counties. ...The Flood Warning continues for the following rivers in North Carolina...South Carolina...</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T09:52:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T04:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Robeson</cap:areaDesc>
+		<cap:polygon>34.67,-79.16 34.68,-79.03 34.57,-78.91 34.52,-78.99 34.59,-79.08 34.58,-79.15 34.67,-79.16</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>037155</value>
+			<valueName>UGC</valueName>
+			<value>NCC155</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KILM.FL.W.0067.000000T0000Z-000000T0000Z/
+				/LBRN7.1.ER.200926T0700Z.201002T0000Z.000000T0000Z.UU/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=NE125F652591F4.FrostAdvisory.125F65349D20NE.GIDNPWGID.5349cc1582e1cf99ed047e4d9805be2d</id>
+		<updated>2020-09-28T10:41:00-05:00</updated>
+		<published>2020-09-28T10:41:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Frost Advisory issued September 28 at 10:41AM CDT until September 29 at 9:00AM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=NE125F652591F4.FrostAdvisory.125F65349D20NE.GIDNPWGID.5349cc1582e1cf99ed047e4d9805be2d"/>
+		<summary>...FROST ADVISORY REMAINS IN EFFECT FROM 1 AM TO 9 AM CDT TUESDAY... * WHAT...Temperatures as low as 35 will result in frost formation. * WHERE...Valley, Greeley, Sherman, Dawson and Gosper Counties. * WHEN...From 1 AM to 9 AM CDT Tuesday.</summary>
+		<cap:event>Frost Advisory</cap:event>
+		<cap:effective>2020-09-28T10:41:00-05:00</cap:effective>
+		<cap:expires>2020-09-29T09:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Dawson; Gosper; Greeley; Sherman; Valley</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>031047 031073 031077 031163 031175</value>
+			<valueName>UGC</valueName>
+			<value>NEZ039 NEZ040 NEZ046 NEZ060 NEZ072</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KGID.FR.Y.0002.200929T0600Z-200929T1400Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=NE125F65248728.FrostAdvisory.125F65349D20NE.LBFNPWLBF.e6c0547eb833abfb6002eaf1ad1c50bf</id>
+		<updated>2020-09-28T03:58:00-05:00</updated>
+		<published>2020-09-28T03:58:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Frost Advisory issued September 28 at 3:58AM CDT until September 29 at 9:00AM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=NE125F65248728.FrostAdvisory.125F65349D20NE.LBFNPWLBF.e6c0547eb833abfb6002eaf1ad1c50bf"/>
+		<summary>...FROST ADVISORY IN EFFECT FROM MIDNIGHT CDT /11 PM MDT/ TONIGHT TO 9 AM CDT /8 AM MDT/ TUESDAY... * WHAT...Temperatures as low as 31 degrees will result in frost formation. * WHERE...Garden, Arthur, McPherson, Logan, Custer, Deuel, Keith, Perkins, Lincoln and Frontier Counties.</summary>
+		<cap:event>Frost Advisory</cap:event>
+		<cap:effective>2020-09-28T03:58:00-05:00</cap:effective>
+		<cap:expires>2020-09-29T09:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Arthur; Custer; Deuel; Frontier; Garden; Keith; Lincoln; Logan; McPherson; Perkins</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>031005 031041 031049 031063 031069 031101 031111 031113 031117 031135</value>
+			<valueName>UGC</valueName>
+			<value>NEZ022 NEZ035 NEZ036 NEZ037 NEZ038 NEZ056 NEZ057 NEZ058 NEZ059 NEZ071</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.NEW.KLBF.FR.Y.0003.200929T0500Z-200929T1400Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=NM125F65258380.WindAdvisory.125F65264540NM.EPZNPWEPZ.7da9beab783af5ab3ed7a2d01c4dc9a2</id>
+		<updated>2020-09-28T09:04:00-06:00</updated>
+		<published>2020-09-28T09:04:00-06:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Wind Advisory issued September 28 at 9:04AM MDT until September 28 at 2:00PM MDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=NM125F65258380.WindAdvisory.125F65264540NM.EPZNPWEPZ.7da9beab783af5ab3ed7a2d01c4dc9a2"/>
+		<summary>...WIND ADVISORY IN EFFECT UNTIL 2 PM MDT THIS AFTERNOON... * WHAT...Northeast winds 30 to 35 mph with gusts up to 50 mph expected. Stronger winds gusts will occur along the western slopes of area mountains. Blowing dust is lingering, and dropping visibilities to 7SM in some areas. Visibilities are expected to remain at or above 5SM around I-10 at this time.</summary>
+		<cap:event>Wind Advisory</cap:event>
+		<cap:effective>2020-09-28T09:04:00-06:00</cap:effective>
+		<cap:expires>2020-09-28T14:00:00-06:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Lowlands of the Bootheel; Southwest Desert, Lower Gila River Valley</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>035017 035023</value>
+			<valueName>UGC</valueName>
+			<value>NMZ404 NMZ405</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXB.KEPZ.WI.Y.0017.000000T0000Z-200928T2000Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=OH125F65254050.BeachHazardsStatement.125F65347610OH.CLECFWCLE.7c256557ceb818d77724b2ee669a9567</id>
+		<updated>2020-09-28T09:32:00-04:00</updated>
+		<published>2020-09-28T09:32:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Beach Hazards Statement issued September 28 at 9:32AM EDT until September 29 at 9:00AM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=OH125F65254050.BeachHazardsStatement.125F65347610OH.CLECFWCLE.7c256557ceb818d77724b2ee669a9567"/>
+		<summary>...BEACH HAZARDS STATEMENT IN EFFECT FROM 8 PM EDT THIS EVENING THROUGH TUESDAY MORNING... * WHAT...High risk of rip currents expected. * WHERE...Cuyahoga, Lake and Ashtabula Lakeshore Counties. * WHEN...From 8 PM EDT this evening through Tuesday morning. * IMPACTS...Wind and wave action will cause currents on the</summary>
+		<cap:event>Beach Hazards Statement</cap:event>
+		<cap:effective>2020-09-28T09:32:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T09:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Ashtabula Lakeshore; Cuyahoga; Lake</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>039007 039035 039085</value>
+			<valueName>UGC</valueName>
+			<value>OHZ011 OHZ012 OHZ089</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.NEW.KCLE.BH.S.0021.200929T0000Z-200929T1300Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=OK125F6526065C.FrostAdvisory.125F65349D20OK.AMANPWAMA.fb6d7384c8b83a3e083a57d75f60ef06</id>
+		<updated>2020-09-28T13:39:00-05:00</updated>
+		<published>2020-09-28T13:39:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Frost Advisory issued September 28 at 1:39PM CDT until September 29 at 9:00AM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=OK125F6526065C.FrostAdvisory.125F65349D20OK.AMANPWAMA.fb6d7384c8b83a3e083a57d75f60ef06"/>
+		<summary>...FROST ADVISORY IN EFFECT FROM 2 AM TO 9 AM CDT TUESDAY... * WHAT...Temperatures as low as 34 will result in frost formation. * WHERE...In Oklahoma, Cimarron County. In Texas, Dallam, Hartley, Oldham and Deaf Smith Counties. * WHEN...From 2 AM to 9 AM CDT Tuesday.</summary>
+		<cap:event>Frost Advisory</cap:event>
+		<cap:effective>2020-09-28T13:39:00-05:00</cap:effective>
+		<cap:expires>2020-09-29T09:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Cimarron</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>040025</value>
+			<valueName>UGC</valueName>
+			<value>OKZ001</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.NEW.KAMA.FR.Y.0001.200929T0700Z-200929T1400Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=OR125F65250F7C.RedFlagWarning.125F6532EF70OR.MFRRFWMFR.0cef0d654019d961591cfd77f9b05dcf</id>
+		<updated>2020-09-28T05:07:00-07:00</updated>
+		<published>2020-09-28T05:07:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Red Flag Warning issued September 28 at 5:07AM PDT until September 28 at 8:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=OR125F65250F7C.RedFlagWarning.125F6532EF70OR.MFRRFWMFR.0cef0d654019d961591cfd77f9b05dcf"/>
+		<summary>...RED FLAG WARNING REMAINS IN EFFECT UNTIL 8 PM PDT THIS EVENING FOR EAST WIND WITH POOR OVERNIGHT RH RECOVERY AND STRONG GUSTY WIND WITH LOW RH FOR FIRE WEATHER ZONES 280...618...619...620... * Impacts: Gusty east winds, poor relative humidity recovery, and low relative humidity with high fire danger will likely contribute to a significant spread of new and existing fires.</summary>
+		<cap:event>Red Flag Warning</cap:event>
+		<cap:effective>2020-09-28T05:07:00-07:00</cap:effective>
+		<cap:expires>2020-09-28T20:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Severe</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Southern Oregon Coast; Western Rogue Basin including the Illinois Valley; Western Siskiyou National Forest</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>041015 041033</value>
+			<valueName>UGC</valueName>
+			<value>ORZ618 ORZ619 ORZ620</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KMFR.FW.W.0029.000000T0000Z-200929T0300Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=OR125F65250F7C.RedFlagWarning.125F65351250OR.MFRRFWMFR.255851734bddffd712d0b791ffac2543</id>
+		<updated>2020-09-28T05:07:00-07:00</updated>
+		<published>2020-09-28T05:07:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Red Flag Warning issued September 28 at 5:07AM PDT until September 29 at 10:00AM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=OR125F65250F7C.RedFlagWarning.125F65351250OR.MFRRFWMFR.255851734bddffd712d0b791ffac2543"/>
+		<summary>...RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 AM PDT TUESDAY FOR EAST WIND WITH POOR OVERNIGHT RH RECOVERY AND STRONG GUSTY WIND WITH LOW RH FOR FIRE WEATHER ZONES 621...622...623... * Impacts: Gusty east to southeast winds, poor relative humidity recovery, and low relative humidity with high fire danger will likely contribute to a significant spread of new and existing</summary>
+		<cap:event>Red Flag Warning</cap:event>
+		<cap:effective>2020-09-28T05:07:00-07:00</cap:effective>
+		<cap:expires>2020-09-29T10:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Severe</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Eastern Rogue Valley; Siskiyou Mountains; Southern Oregon Cascades</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>041029 041033 041035</value>
+			<valueName>UGC</valueName>
+			<value>ORZ621 ORZ622 ORZ623</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KMFR.FW.W.0029.000000T0000Z-200929T1700Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=OR125F65243070.BeachHazardsStatement.125F6533D9D0OR.MFRCFWMFR.917a7bcaa5e618cc588aab2e70f27e12</id>
+		<updated>2020-09-27T23:36:00-07:00</updated>
+		<published>2020-09-27T23:36:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Beach Hazards Statement issued September 27 at 11:36PM PDT until September 29 at 2:00AM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=OR125F65243070.BeachHazardsStatement.125F6533D9D0OR.MFRCFWMFR.917a7bcaa5e618cc588aab2e70f27e12"/>
+		<summary>...BEACH HAZARDS STATEMENT REMAINS IN EFFECT FROM 11 AM PDT MONDAY THROUGH LATE MONDAY NIGHT... * WHAT...Increased risk of dangerous sneaker waves expected. * WHERE...Beaches of Douglas, Coos, and Curry Counties. * WHEN...From 11 AM PDT Monday morning through midnight Monday night.</summary>
+		<cap:event>Beach Hazards Statement</cap:event>
+		<cap:effective>2020-09-27T23:36:00-07:00</cap:effective>
+		<cap:expires>2020-09-29T02:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Curry County Coast; South Central Oregon Coast</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>041011 041015</value>
+			<valueName>UGC</valueName>
+			<value>ORZ021 ORZ022</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KMFR.BH.S.0008.200928T1800Z-200929T0900Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=OR125F65172FEC.HeatAdvisory.125F65356070OR.MFRNPWMFR.c36d6dbcbf420e904e200761ced7bfae</id>
+		<updated>2020-09-27T14:15:00-07:00</updated>
+		<published>2020-09-27T14:15:00-07:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Heat Advisory issued September 27 at 2:15PM PDT until September 29 at 12:00PM PDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=OR125F65172FEC.HeatAdvisory.125F65356070OR.MFRNPWMFR.c36d6dbcbf420e904e200761ced7bfae"/>
+		<summary>...HEAT ADVISORY REMAINS IN EFFECT UNTIL NOON PDT TUESDAY... * WHAT...High temperatures in the upper 80s to upper 90s are expected with little overnight cooling. South winds are expected to develop Tuesday afternoon with some marine influenced cooling. * WHERE...Curry County Coast and Eastern Curry County. This</summary>
+		<cap:event>Heat Advisory</cap:event>
+		<cap:effective>2020-09-27T14:15:00-07:00</cap:effective>
+		<cap:expires>2020-09-29T12:00:00-07:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Curry County Coast; Eastern Curry County and Josephine County</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>041015 041033</value>
+			<valueName>UGC</valueName>
+			<value>ORZ022 ORZ024</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KMFR.HT.Y.0008.000000T0000Z-200929T1900Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=PA125F65254050.BeachHazardsStatement.125F6534C430PA.CLECFWCLE.f749540b0b76c9c01949f446efe832ce</id>
+		<updated>2020-09-28T09:32:00-04:00</updated>
+		<published>2020-09-28T09:32:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Beach Hazards Statement issued September 28 at 9:32AM EDT until September 29 at 11:00AM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=PA125F65254050.BeachHazardsStatement.125F6534C430PA.CLECFWCLE.f749540b0b76c9c01949f446efe832ce"/>
+		<summary>...BEACH HAZARDS STATEMENT IN EFFECT FROM THIS EVENING THROUGH TUESDAY MORNING... * WHAT...High risk of rip currents expected. * WHERE...Northern Erie County. * WHEN...From this evening through Tuesday morning. * IMPACTS...Wind and wave action will cause currents on the</summary>
+		<cap:event>Beach Hazards Statement</cap:event>
+		<cap:effective>2020-09-28T09:32:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T11:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Northern Erie</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>042049</value>
+			<valueName>UGC</valueName>
+			<value>PAZ001</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.NEW.KCLE.BH.S.0021.200929T0300Z-200929T1500Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=SC125F65254820.FloodWarning.125F6533B2C0SC.ILMFLSILM.4d524dfb320e6bf0c0ce30f352a1f674</id>
+		<updated>2020-09-28T09:52:00-04:00</updated>
+		<published>2020-09-28T09:52:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 9:52AM EDT until further notice by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=SC125F65254820.FloodWarning.125F6533B2C0SC.ILMFLSILM.4d524dfb320e6bf0c0ce30f352a1f674"/>
+		<summary>...The Flood Warning is extended for the following rivers in South Carolina... Great Pee Dee River At Pee Dee affecting Marion and Florence Counties. ...The Flood Warning continues for the following rivers in North Carolina...South Carolina...</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T09:52:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T04:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Darlington; Florence</cap:areaDesc>
+		<cap:polygon>34.32,-79.79 34.29,-79.73 34.31,-79.67 34.23,-79.63 34.22,-79.75 34.28,-79.84 34.32,-79.79</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>045031 045041</value>
+			<valueName>UGC</valueName>
+			<value>SCC031 SCC041</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KILM.FL.W.0066.000000T0000Z-000000T0000Z/
+				/BCRS1.1.ER.200926T1021Z.200927T0900Z.000000T0000Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=SC125F65254820.FloodWarning.125F6533B2C0SC.ILMFLSILM.70414cbf12682b864c3167179089a083</id>
+		<updated>2020-09-28T09:52:00-04:00</updated>
+		<published>2020-09-28T09:52:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 9:52AM EDT until further notice by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=SC125F65254820.FloodWarning.125F6533B2C0SC.ILMFLSILM.70414cbf12682b864c3167179089a083"/>
+		<summary>...The Flood Warning is extended for the following rivers in South Carolina... Great Pee Dee River At Pee Dee affecting Marion and Florence Counties. ...The Flood Warning continues for the following rivers in North Carolina...South Carolina...</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T09:52:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T04:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Florence; Marion</cap:areaDesc>
+		<cap:polygon>34.24,-79.62 34.24,-79.5 34,-79.45 33.85,-79.32 33.85,-79.44 33.98,-79.57 34.24,-79.62</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>045041 045067</value>
+			<valueName>UGC</valueName>
+			<value>SCC041 SCC067</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXT.KILM.FL.W.0068.000000T0000Z-000000T0000Z/
+				/PDES1.1.ER.200928T1800Z.201003T0000Z.000000T0000Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=SC125F652547BC.FloodWarning.125F6533B2C0SC.ILMFLWILM.53bcad66687135d617c5389c00399274</id>
+		<updated>2020-09-28T09:51:00-04:00</updated>
+		<published>2020-09-28T09:51:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 9:51AM EDT until further notice by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=SC125F652547BC.FloodWarning.125F6533B2C0SC.ILMFLWILM.53bcad66687135d617c5389c00399274"/>
+		<summary>...The National Weather Service in Wilmington NC has issued a Flood Warning for the following rivers in South Carolina... Little Pee Dee River At Galivants Ferry affecting Horry and Marion Counties. For the Little Pee Dee River...including Galivants Ferry...Minor flooding is forecast.</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T09:51:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T04:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Horry; Marion</cap:areaDesc>
+		<cap:polygon>34.23,-79.21 34.19,-79.1 34.05,-79.2 33.98,-79.28 34,-79.38 34.09,-79.3 34.23,-79.21</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>045051 045067</value>
+			<valueName>UGC</valueName>
+			<value>SCC051 SCC067</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.NEW.KILM.FL.W.0069.200929T0000Z-000000T0000Z/
+				/GALS1.1.ER.200929T0000Z.200929T1800Z.000000T0000Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=SC125F652547BC.FloodWarning.125F65349D20SC.CHSFLSCHS.1f6da7e12e00ed09a18a728918ace1ae</id>
+		<updated>2020-09-28T09:51:00-04:00</updated>
+		<published>2020-09-28T09:51:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 9:51AM EDT until further notice by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=SC125F652547BC.FloodWarning.125F65349D20SC.CHSFLSCHS.1f6da7e12e00ed09a18a728918ace1ae"/>
+		<summary>...The Flood Warning remains in effect... The Flood Warning continues for the Edisto River near Givhans Ferry. * Until further notice. * At 930 AM EDT Monday, the stage was 11.0 feet. * Flood stage is 10.0 feet.</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T09:51:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T10:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Charleston; Colleton; Dorchester</cap:areaDesc>
+		<cap:polygon>33.04,-80.65 33.11,-80.62 33.08,-80.36 32.75,-80.36 32.75,-80.5 33.02,-80.44 33.04,-80.65</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>045019 045029 045035</value>
+			<valueName>UGC</valueName>
+			<value>SCC019 SCC029 SCC035</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KCHS.FL.W.0038.000000T0000Z-000000T0000Z/
+				/GIVS1.1.ER.200923T1830Z.200927T1330Z.000000T0000Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=SC125F652547BC.FloodWarning.125F65349D20SC.CHSFLSCHS.16c11b99f6d35b05ef7b3551779b9fd6</id>
+		<updated>2020-09-28T09:51:00-04:00</updated>
+		<published>2020-09-28T09:51:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 9:51AM EDT until further notice by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=SC125F652547BC.FloodWarning.125F65349D20SC.CHSFLSCHS.16c11b99f6d35b05ef7b3551779b9fd6"/>
+		<summary>...The Flood Warning remains in effect... The Flood Warning continues for the Savannah River near Clyo. * Until further notice. * At 915 AM EDT Monday, the stage was 11.9 feet. * Flood stage is 11.0 feet.</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T09:51:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T10:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Hampton; Jasper</cap:areaDesc>
+		<cap:polygon>32.73,-81.45 32.76,-81.37 32.64,-81.36 32.49,-81.17 32.46,-81.25 32.61,-81.44 32.73,-81.45</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>045049 045053</value>
+			<valueName>UGC</valueName>
+			<value>SCC049 SCC053</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KCHS.FL.W.0039.000000T0000Z-000000T0000Z/
+				/CLYG1.1.ER.200925T1315Z.201001T1800Z.000000T0000Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=SC125F652547BC.FloodWarning.125F65353960SC.CHSFLSCHS.3b2c6df47c199f8e31f187178c195432</id>
+		<updated>2020-09-28T09:51:00-04:00</updated>
+		<published>2020-09-28T09:51:00-04:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 9:51AM EDT until September 29 at 2:00PM EDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=SC125F652547BC.FloodWarning.125F65353960SC.CHSFLSCHS.3b2c6df47c199f8e31f187178c195432"/>
+		<summary>...The Flood Warning is now in effect until early tomorrow afternoon... The Flood Warning continues for the Santee River near Jamestown. * Until Tuesday afternoon. * At 830 AM EDT Monday, the stage was 10.5 feet.</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T09:51:00-04:00</cap:effective>
+		<cap:expires>2020-09-29T14:00:00-04:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Berkeley; Georgetown; Williamsburg</cap:areaDesc>
+		<cap:polygon>33.47,-80.02 33.54,-79.98 33.25,-79.37 33.21,-79.38 33.2,-79.51 33.29,-79.76 33.47,-80.02</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>045015 045043 045089</value>
+			<valueName>UGC</valueName>
+			<value>SCC015 SCC043 SCC089</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXT.KCHS.FL.W.0036.000000T0000Z-200929T1800Z/
+				/JAMS1.1.ER.200919T0330Z.200925T0800Z.200929T0600Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=SD125F64F780FC.FloodWarning.125F65353960SD.ABRFLSABR.f223c644c12d412f353b0f4b0a54add6</id>
+		<updated>2020-09-25T07:51:00-06:00</updated>
+		<published>2020-09-25T07:51:00-06:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 25 at 7:51AM MDT until September 29 at 12:00PM MDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=SD125F64F780FC.FloodWarning.125F65353960SD.ABRFLSABR.f223c644c12d412f353b0f4b0a54add6"/>
+		<summary>...The Flood Warning is extended for the following rivers in South Dakota... James River Near Stratford affecting Brown and Spink Counties. .The following river forecasts include forecast precipitation through the next 24 hours. Any additional future precipitation could affect the forecasts.</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-25T07:51:00-06:00</cap:effective>
+		<cap:expires>2020-09-29T12:00:00-06:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Brown; Spink</cap:areaDesc>
+		<cap:polygon>45.52,-98.18 45.15,-98.35 45.15,-98.45 45.52,-98.3 45.52,-98.18</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>046013 046115</value>
+			<valueName>UGC</valueName>
+			<value>SDC013 SDC115</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXT.KABR.FL.W.0038.000000T0000Z-200929T1800Z/
+				/SFDS2.1.RS.000000T0000Z.200922T0200Z.200929T1200Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=TX125F65260BD4.LakeWindAdvisory.125F65327A40TX.SHVNPWSHV.5975c03869ced7d1e85567bac00e760d</id>
+		<updated>2020-09-28T13:53:00-05:00</updated>
+		<published>2020-09-28T13:53:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Lake Wind Advisory issued September 28 at 1:53PM CDT until September 28 at 7:00PM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=TX125F65260BD4.LakeWindAdvisory.125F65327A40TX.SHVNPWSHV.5975c03869ced7d1e85567bac00e760d"/>
+		<summary>...LAKE WIND ADVISORY REMAINS IN EFFECT UNTIL 7 PM CDT THIS EVENING... * WHAT...North winds 15 to 20 mph with gusts as high as 25 mph. * WHERE...Portions of north central and northwest Louisiana and east and northeast Texas. * WHEN...Until 7 PM CDT this evening.</summary>
+		<cap:event>Lake Wind Advisory</cap:event>
+		<cap:effective>2020-09-28T13:53:00-05:00</cap:effective>
+		<cap:expires>2020-09-28T19:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Angelina; Camp; Cass; Cherokee; Franklin; Gregg; Harrison; Marion; Morris; Nacogdoches; Panola; Red River; Rusk; Sabine; San Augustine; Shelby; Smith; Titus; Upshur; Wood</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>048005 048063 048067 048073 048159 048183 048203 048315 048343 048347 048365 048387 048401 048403 048405 048419 048423 048449 048459 048499</value>
+			<valueName>UGC</valueName>
+			<value>TXZ096 TXZ108 TXZ109 TXZ110 TXZ111 TXZ112 TXZ124 TXZ125 TXZ126 TXZ136 TXZ137 TXZ138 TXZ149 TXZ150 TXZ151 TXZ152 TXZ153 TXZ165 TXZ166 TXZ167</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KSHV.LW.Y.0023.000000T0000Z-200929T0000Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=TX125F6526065C.FrostAdvisory.125F65349D20TX.AMANPWAMA.f9b2aaef7594bf201eabb571088d3486</id>
+		<updated>2020-09-28T13:39:00-05:00</updated>
+		<published>2020-09-28T13:39:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Frost Advisory issued September 28 at 1:39PM CDT until September 29 at 9:00AM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=TX125F6526065C.FrostAdvisory.125F65349D20TX.AMANPWAMA.f9b2aaef7594bf201eabb571088d3486"/>
+		<summary>...FROST ADVISORY IN EFFECT FROM 2 AM TO 9 AM CDT TUESDAY... * WHAT...Temperatures as low as 34 will result in frost formation. * WHERE...In Oklahoma, Cimarron County. In Texas, Dallam, Hartley, Oldham and Deaf Smith Counties. * WHEN...From 2 AM to 9 AM CDT Tuesday.</summary>
+		<cap:event>Frost Advisory</cap:event>
+		<cap:effective>2020-09-28T13:39:00-05:00</cap:effective>
+		<cap:expires>2020-09-29T09:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Dallam; Deaf Smith; Hartley; Oldham</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>048111 048117 048205 048359</value>
+			<valueName>UGC</valueName>
+			<value>TXZ001 TXZ006 TXZ011 TXZ016</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.NEW.KAMA.FR.Y.0001.200929T0700Z-200929T1400Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=TX125F6525E58C.SpecialWeatherStatement.125F65327A40TX.EWXSPSEWX.b144aad469a47349f020d445fe74d1c1</id>
+		<updated>2020-09-28T12:55:00-05:00</updated>
+		<published>2020-09-28T12:55:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Special Weather Statement issued September 28 at 12:55PM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=TX125F6525E58C.SpecialWeatherStatement.125F65327A40TX.EWXSPSEWX.b144aad469a47349f020d445fe74d1c1"/>
+		<summary>Windy conditions will continue this afternoon with sustained northerly winds 15-25 mph, and isolated gusts as high as 40 mph. Winds will diminish quickly this evening and should fall below 10mph by the mid-evening hours. Continue to use extra caution when driving, especially if operating a high profile vehicle on east-west oriented roadways.</summary>
+		<cap:event>Special Weather Statement</cap:event>
+		<cap:effective>2020-09-28T12:55:00-05:00</cap:effective>
+		<cap:expires>2020-09-28T19:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Observed</cap:certainty>
+		<cap:areaDesc>Atascosa; Bandera; Bastrop; Bexar; Blanco; Burnet; Caldwell; Comal; De Witt; Edwards; Fayette; Gillespie; Gonzales; Guadalupe; Hays; Karnes; Kendall; Kerr; Lavaca; Lee; Llano; Medina; Real; Travis; Val Verde; Williamson; Wilson</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>048013 048019 048021 048029 048031 048053 048055 048091 048123 048137 048149 048171 048177 048187 048209 048255 048259 048265 048285 048287 048299 048325 048385 048453 048465 048491 048493</value>
+			<valueName>UGC</valueName>
+			<value>TXZ171 TXZ172 TXZ173 TXZ183 TXZ184 TXZ185 TXZ186 TXZ187 TXZ188 TXZ189 TXZ190 TXZ191 TXZ192 TXZ193 TXZ194 TXZ204 TXZ205 TXZ206 TXZ207 TXZ208 TXZ209 TXZ220 TXZ221 TXZ222 TXZ223 TXZ224 TXZ225</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value/>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=TX125F65258E70.WindAdvisory.125F6532C860TX.HGXNPWHGX.d9df3730b0d1f4b12983a1a756edd7cf</id>
+		<updated>2020-09-28T10:32:00-05:00</updated>
+		<published>2020-09-28T10:32:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Wind Advisory issued September 28 at 10:32AM CDT until September 28 at 9:00PM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=TX125F65258E70.WindAdvisory.125F6532C860TX.HGXNPWHGX.d9df3730b0d1f4b12983a1a756edd7cf"/>
+		<summary>...WIND ADVISORY REMAINS IN EFFECT UNTIL 9 PM CDT THIS EVENING... * WHAT...North winds 15 to 25 mph with gusts up to 30 mph expected. * WHERE...Portions of south central and southeast Texas. * WHEN...From 10 AM this morning to 9 PM CDT this evening. * IMPACTS...Gusty winds could blow around unsecured objects.</summary>
+		<cap:event>Wind Advisory</cap:event>
+		<cap:effective>2020-09-28T10:32:00-05:00</cap:effective>
+		<cap:expires>2020-09-28T21:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Austin; Brazos; Burleson; Colorado; Fort Bend; Grimes; Inland Brazoria; Inland Galveston; Inland Harris; Inland Jackson; Inland Matagorda; Madison; Montgomery; Southern Liberty; Walker; Waller; Washington; Wharton</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>048015 048039 048041 048051 048089 048157 048167 048185 048201 048239 048291 048313 048321 048339 048471 048473 048477 048481</value>
+			<valueName>UGC</valueName>
+			<value>TXZ176 TXZ177 TXZ195 TXZ196 TXZ197 TXZ198 TXZ199 TXZ210 TXZ211 TXZ212 TXZ213 TXZ226 TXZ227 TXZ235 TXZ236 TXZ237 TXZ238 TXZ300</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KHGX.WI.Y.0007.000000T0000Z-200929T0200Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=TX125F65258E70.WindAdvisory.125F65344F00TX.HGXNPWHGX.806eb97a7c816a39e136043eb2e47487</id>
+		<updated>2020-09-28T10:32:00-05:00</updated>
+		<published>2020-09-28T10:32:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Wind Advisory issued September 28 at 10:32AM CDT until September 29 at 7:00AM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=TX125F65258E70.WindAdvisory.125F65344F00TX.HGXNPWHGX.806eb97a7c816a39e136043eb2e47487"/>
+		<summary>...WIND ADVISORY REMAINS IN EFFECT UNTIL 7 AM CDT TUESDAY... * WHAT...North winds 15 to 25 mph with gusts up to 35 mph expected. * WHERE...Chambers, Coastal Harris, Coastal Jackson, Coastal Matagorda, Coastal Brazoria, Coastal Galveston, Matagorda Islands, Brazoria Islands and Galveston Island and Bolivar</summary>
+		<cap:event>Wind Advisory</cap:event>
+		<cap:effective>2020-09-28T10:32:00-05:00</cap:effective>
+		<cap:expires>2020-09-29T07:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Minor</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Brazoria Islands; Chambers; Coastal Brazoria; Coastal Galveston; Coastal Harris; Coastal Jackson; Coastal Matagorda; Galveston Island and Bolivar Peninsula; Matagorda Islands</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>048039 048071 048167 048201 048239 048321</value>
+			<valueName>UGC</valueName>
+			<value>TXZ214 TXZ313 TXZ335 TXZ336 TXZ337 TXZ338 TXZ436 TXZ437 TXZ438</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.CON.KHGX.WI.Y.0007.000000T0000Z-200929T1200Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=TX125F652587CC.FloodWarning.125F698F1DA0TX.LCHFLSLCH.8a753b4f6b19d2bf8ea2323ac5d07050</id>
+		<updated>2020-09-28T10:15:00-05:00</updated>
+		<published>2020-09-28T10:15:00-05:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Flood Warning issued September 28 at 10:15AM CDT until October 02 at 1:00PM CDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=TX125F652587CC.FloodWarning.125F698F1DA0TX.LCHFLSLCH.8a753b4f6b19d2bf8ea2323ac5d07050"/>
+		<summary>...The Flood Warning is extended for the following rivers in Louisiana...Texas... Sabine River Near Deweyville ...The Flood Warning is now in effect until early Friday afternoon... The Flood Warning continues for the Sabine River Near Deweyville.</summary>
+		<cap:event>Flood Warning</cap:event>
+		<cap:effective>2020-09-28T10:15:00-05:00</cap:effective>
+		<cap:expires>2020-10-02T13:00:00-05:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Moderate</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Newton; Orange</cap:areaDesc>
+		<cap:polygon>30.57,-93.63 30.11,-93.64 30.11,-93.78 30.31,-93.81 30.62,-93.78 30.57,-93.63</cap:polygon>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>048351 048361</value>
+			<valueName>UGC</valueName>
+			<value>TXC351 TXC361</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXT.KLCH.FL.W.0069.000000T0000Z-201002T1800Z/
+				/DWYT2.1.ER.200925T0452Z.200928T1800Z.201002T0600Z.NO/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=UT125F6524A794.RedFlagWarning.125F65327A40UT.SLCRFWSLC.757b4e6e4458ccd9761527a74930644f</id>
+		<updated>2020-09-28T03:41:00-06:00</updated>
+		<published>2020-09-28T03:41:00-06:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Red Flag Warning issued September 28 at 3:41AM MDT until September 28 at 6:00PM MDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=UT125F6524A794.RedFlagWarning.125F65327A40UT.SLCRFWSLC.757b4e6e4458ccd9761527a74930644f"/>
+		<summary>...RED FLAG WARNING NOW IN EFFECT UNTIL 6 PM MDT THIS EVENING FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONE 497... * AFFECTED AREA...Fire Weather Zone 497 Mojave Desert. * WINDS...North-northeast 15 to 25 mph with gusts up to 45 mph. * RELATIVE HUMIDITY...As low as 12 percent. * IMPACTS...Critical fire weather conditions are expected to</summary>
+		<cap:event>Red Flag Warning</cap:event>
+		<cap:effective>2020-09-28T03:41:00-06:00</cap:effective>
+		<cap:expires>2020-09-28T18:00:00-06:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Expected</cap:urgency>
+		<cap:severity>Severe</cap:severity>
+		<cap:certainty>Likely</cap:certainty>
+		<cap:areaDesc>Mojave Desert</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>049053</value>
+			<valueName>UGC</valueName>
+			<value>UTZ497</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value>/O.EXT.KSLC.FW.W.0038.000000T0000Z-200929T0000Z/</value>
+		</cap:parameter>
+	</entry>
+	<entry>
+		<id>https://alerts.weather.gov/cap/wwacapget.php?x=WY125F6525DF4C.AirQualityAlert.125F65353960WY.CYSAQACYS.f8a87a52beb52a339b13e668007aee9d</id>
+		<updated>2020-09-28T11:39:00-06:00</updated>
+		<published>2020-09-28T11:39:00-06:00</published>
+		<author>
+			<name>w-nws.webmaster@noaa.gov</name>
+		</author>
+		<title>Air Quality Alert issued September 28 at 11:39AM MDT by NWS</title>
+		<link href="https://alerts.weather.gov/cap/wwacapget.php?x=WY125F6525DF4C.AirQualityAlert.125F65353960WY.CYSAQACYS.f8a87a52beb52a339b13e668007aee9d"/>
+		<summary>...AIR QUALITY ALERT EXTENDED UNTIL NOON MDT TUESDAY... The following message is transmitted in collaboration with the Wyoming Department of Environmental Quality, Air Quality Division and the Wyoming Department of Health. WHAT...Air Quality Alert for Wildfire Smoke. WHERE...Southeast Carbon County, the southern half of Albany County,</summary>
+		<cap:event>Air Quality Alert</cap:event>
+		<cap:effective>2020-09-28T11:39:00-06:00</cap:effective>
+		<cap:expires>2020-09-29T12:00:00-06:00</cap:expires>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:category>Met</cap:category>
+		<cap:urgency>Unknown</cap:urgency>
+		<cap:severity>Unknown</cap:severity>
+		<cap:certainty>Unknown</cap:certainty>
+		<cap:areaDesc>Laramie Valley; Snowy Range; South Laramie Range</cap:areaDesc>
+		<cap:polygon/>
+		<cap:geocode>
+			<valueName>FIPS6</valueName>
+			<value>056001 056007 056021</value>
+			<valueName>UGC</valueName>
+			<value>WYZ114 WYZ115 WYZ116</value>
+		</cap:geocode>
+		<cap:parameter>
+			<valueName>VTEC</valueName>
+			<value/>
+		</cap:parameter>
+	</entry>
+</feed>

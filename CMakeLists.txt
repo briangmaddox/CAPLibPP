@@ -4,7 +4,9 @@ if(${CMAKE_VERSION} VERSION_LESS 3.10)
     cmake_policy(VERSION ${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION})
 endif()
 
-project(CAPLibpp VERSION 0.9
+set(PROJECT_NAME_STR CAPLibpp)
+
+project(${PROJECT_NAME_STR} VERSION 0.9
                  DESCRIPTION "C++ Library to parse NOAA CAP Alerts and ATOM RSS Feed"
                  LANGUAGES CXX)
 
@@ -37,16 +39,11 @@ ELSE(OPENSSL_FOUND)
       MESSAGE(FATAL_ERROR "Could not find the OpenSSL library and header files.")
 ENDIF(OPENSSL_FOUND)
 
+# Add our sources
+file(GLOB_RECURSE INC_FILES include/*.h)
+file(GLOB_RECURSE SRC_FILES src/C*.cpp src/N*.cpp)
 
-add_library(CAPLibpp STATIC src/CAPAreaObject.cpp        include/CAPLibpp/CAPAreaObject.h
-                            src/CAPEventCodeObject.cpp   include/CAPLibpp/CAPEventCodeObject.h
-                            src/CAPGeocodeObject.cpp     include/CAPLibpp/CAPGeocodeObject.h
-                            src/CAPInfoObject.cpp        include/CAPLibpp/CAPInfoObject.h
-                            src/CAPLibEnums.cpp          include/CAPLibpp/CAPLibEnums.h
-                            src/CAPParameterObject.cpp   include/CAPLibpp/CAPParameterObject.h
-                            src/CAPResourceObject.cpp    include/CAPLibpp/CAPResourceObject.h
-                            src/NOAAAtomEventObject.cpp  include/CAPLibpp/NOAAAtomEventObject.h
-                            src/NOAACAPAlertObject.cpp   include/CAPLibpp/NOAACAPAlertObject.h)
+add_library(CAPLibpp STATIC ${INC_FILES} ${SRC_FILES})
 target_include_directories(CAPLibpp PUBLIC ${PROJECT_SOURCE_DIR}/include)
 target_compile_features(CAPLibpp PUBLIC cxx_std_11)
 
@@ -58,3 +55,5 @@ target_link_libraries(CAPLibpp_test PUBLIC ${BOOST_LIBRARIES})
 target_link_libraries(CAPLibpp_test PUBLIC ${CURLPP_LIBRARIES})
 target_link_libraries(CAPLibpp_test PUBLIC ${OPENSSL_LIBRARIES})
 
+# Unit tests
+add_subdirectory(test)
